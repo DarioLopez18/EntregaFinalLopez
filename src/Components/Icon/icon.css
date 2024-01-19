@@ -1,0 +1,15 @@
+.logo{
+    height: 50px;
+}
+
+.icon{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.h1{
+    font-size: 1rem;
+}

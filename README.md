@@ -1,7 +1,7 @@
 # Ecommerce React JS CoderHouse 2024 🌍
 
 Primera pre-entrega del proyecto final, este proyecto constará de una tienda ecommerce, desarrollada con
-React JS con vite,Javascript, Vite, HTML, CSS y Tailwind.
+React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
 
 <p align="center">
     <img
@@ -75,7 +75,7 @@ React JS con vite,Javascript, Vite, HTML, CSS y Tailwind.
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 * ![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 * ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
+* ![BOOTSTRAP!](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 # Desarollado por:
 
 * Nombre👤: Lopez, Dario Angel Jose.

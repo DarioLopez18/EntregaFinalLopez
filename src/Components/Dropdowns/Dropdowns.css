@@ -1,0 +1,19 @@
+.dropdown{
+    background-color: #D12B3E;
+    border: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown:hover{
+    transition: 0;
+    color: chartreuse;
+    background-color: #D12B3E !important;
+}
+
+item:hover{
+    background-color: #D12B3E;
+}

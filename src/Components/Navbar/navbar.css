@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.background{
+    background-color: #D12B3E;
+}
+
+.barra{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.drop{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+.base{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.base2{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
