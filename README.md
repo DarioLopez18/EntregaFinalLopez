@@ -1,7 +1,7 @@
 # Ecommerce React JS CoderHouse 2024 🌍
 
 Primera pre-entrega del proyecto final, este proyecto constará de una tienda ecommerce, desarrollada con
-Javascript, React JS, Vite, HTML, CSS y Tailwind.
+React JS con vite,Javascript, Vite, HTML, CSS y Tailwind.
 
 <p align="center">
     <img
@@ -70,9 +70,9 @@ Javascript, React JS, Vite, HTML, CSS y Tailwind.
 
 # Tecnologías utilizadas
 
+* ![REACTJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 * ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-* ![REACTJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 * ![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 * ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
