@@ -1,11 +1,11 @@
-.enlace{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
+.enlace {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.enlace:hover{
-    color: chartreuse;
+.enlace:hover {
+  color: chartreuse;
 }

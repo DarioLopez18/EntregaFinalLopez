@@ -12,6 +12,7 @@ const Search = (props) => {
 }
 
 
+
 Search.propTypes = {
     placeholder: PropTypes.string.isRequired,
 }

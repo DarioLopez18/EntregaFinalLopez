@@ -1,15 +1,15 @@
-.logo{
-    height: 50px;
+.logo {
+  height: 50px;
 }
 
-.icon{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    color: white;
-    text-decoration: none;
+.icon {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: white;
+  text-decoration: none;
 }
 
-.textoPrincipal{
-    font-size: 1.5rem;
+.textoPrincipal {
+  font-size: 1.5rem;
 }

@@ -1,0 +1,14 @@
+.footerStyle {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 96px;
+}
+
+.textFooter {
+  color: white;
+}
+
+.textFooter:hover {
+  color: chartreuse;
+}
