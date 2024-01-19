@@ -76,7 +76,7 @@ Javascript, React JS, Vite, HTML, CSS y Tailwind.
 * ![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 * ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-* Desarollado por:
+# Desarollado por:
 
 * Nombre👤: Lopez, Dario Angel Jose.
 * gmail📩: darioangellopez38@gmail.com
