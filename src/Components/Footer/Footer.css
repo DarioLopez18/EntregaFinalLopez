@@ -7,8 +7,13 @@
 
 .textFooter {
   color: white;
+  gap: 2rem;
 }
 
 .textFooter:hover {
   color: chartreuse;
+}
+
+.margin{
+  margin-right: 5px;
 }
