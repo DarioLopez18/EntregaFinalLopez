@@ -15,7 +15,7 @@ const Dropdowns = () => {
             Categorías
          </DropdownToggle>
          <DropdownMenu>
-            <DropdownItem className="item" header>
+            <DropdownItem disabled>
                 Seleccione una
             </DropdownItem>
             <DropdownItem className="item" >
