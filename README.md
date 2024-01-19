@@ -18,8 +18,8 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
         <img
             src="Foto.png"
             alt="Certificado del curso"
-            width="600px"
-            height="500px"
+            width="100%"
+            height="100%"
             align="center"
         /> 
      </p>
