@@ -66,7 +66,7 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
 - **Año: 2024**
 - **Comisión: 60810**
 - **Profesor: Diego Andres Alvarado Valle**
-- **Tutor adjunto: Lisando Cordoba**
+- **Tutor adjunto: Lisandro Cordoba**
 
 # Tecnologías utilizadas
 
