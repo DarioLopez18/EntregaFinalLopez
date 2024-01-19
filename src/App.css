@@ -10,13 +10,22 @@ body {
 
 footer {
   background-color: #d12b3e;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   color: white;
+  margin-top: 2rem;
 }
 
 html {
   min-height: 100%;
   position: relative;
+}
+
+.productsContainer{
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
 }

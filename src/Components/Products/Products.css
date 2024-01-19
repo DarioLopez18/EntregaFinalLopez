@@ -1,0 +1,15 @@
+.tituloCard{
+    text-align: center;
+}
+
+.textoCard{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bodyCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

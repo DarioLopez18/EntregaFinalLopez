@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
         </div>
         <div>
-          <div>
+          <div className="desarrollo">
             <h4>Desarrolado por Dario Lopez</h4>
           </div>
         </div>
