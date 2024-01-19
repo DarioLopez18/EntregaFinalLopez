@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+@media (max-width: 1200px) {
+    .dropdown{
+      font-size: 15px;
+    }
+}
+
 .dropdown:hover {
   transition: 0;
   color: chartreuse;

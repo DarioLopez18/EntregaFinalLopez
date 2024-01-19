@@ -6,6 +6,12 @@
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+    .enlace{
+      font-size: 15px
+    }
+}
+
 .enlace:hover {
   color: chartreuse;
 }

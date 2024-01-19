@@ -18,3 +18,21 @@
 .margin{
   margin-right: 5px;
 }
+
+@media (max-width: 1200px) {
+  .footerStyle{
+    margin-left: 0;
+  }
+  .contenedorFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.contenedorFooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

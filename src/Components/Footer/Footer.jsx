@@ -6,7 +6,8 @@ import linkedinIcon from "../../assets/linkedin.svg"
 const Footer = () => {
   return (
 <footer>
-        <div className="footerStyle">
+  <div className="contenedorFooter">
+  <div className="footerStyle">
         <div className="margin">
               <h4>Datos de contacto</h4>
               <label className="margin">Email <img src={iconEmail} alt="logo tipo email" />:</label>
@@ -36,6 +37,12 @@ const Footer = () => {
                         >DarioLopez18</a>
             </div>
         </div>
+        <div>
+          <div>
+            <h4>Desarrolado por Dario Lopez</h4>
+          </div>
+        </div>
+  </div>
     </footer>
   )
 }
