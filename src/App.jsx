@@ -44,13 +44,34 @@ function App() {
       descripcion:"Silla Gamer Vertagear Racing Series",
       button: "Ver mas"
     }
-    ,    {
+    ,{
       id:6,
       title:"Mother",
       img:"https://acortar.link/IyArrf",
       descripcion:"Mother Asrock X670E Taichi Carrara",
       button: "Ver mas"
-    }
+    },
+    {
+      id:7,
+      title:"SSD M.2",
+      img:"https://acortar.link/jygvaU",
+      descripcion:"Disco Solido SSD M.2 Team 2TB",
+      button: "Ver mas"
+    },
+    {
+      id:8,
+      title:"Memoria Ram",
+      img:"https://acortar.link/HgeG0G",
+      descripcion:"Memoria GeiL DDR4 16GB 3000MHz",
+      button: "Ver mas"
+    },
+    {
+      id:9,
+      title:"Cable HDMI",
+      img:"https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_19689_Cable_HDMI_Nisuta_20m_Dorado_V1.4_con_Filtros_2160P_4K_x_2K_4af7cdc5-grn.jpg",
+      descripcion:"Cable hdmi alta velocidad",
+      button: "Ver mas"
+    }    
   ]
 
   return (
