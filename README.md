@@ -1,4 +1,4 @@
-#Ecommerce React JS CoderHouse 2024 🌍
+# Ecommerce React JS CoderHouse 2024 🌍
 
 Primera pre-entrega del proyecto final, este proyecto constará de una tienda ecommerce, desarrollada con
 Javascript, React JS, Vite, HTML, CSS y Tailwind.
