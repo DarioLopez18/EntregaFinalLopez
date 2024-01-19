@@ -13,6 +13,18 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
 />
 </p>
 
+<div> 
+    <p align="center">
+        <img
+            src="Foto.png"
+            alt="Certificado del curso"
+            width="800px"
+            height="600px"
+            align="center"
+        /> 
+     </p>
+</div>
+
 # Acerca de como ejecutar la aplicación:
 
 * Clonar el repositorio haciendo uso del comando: git clone https://github.com/DarioLopez18/PreEntrega1Lopez.git
