@@ -29,3 +29,9 @@ html {
   gap: 4rem;
   padding: 2rem;
 }
+
+@media (max-width: 950px) {
+    .productsContainer{
+      max-width: 100%;
+    }
+}
