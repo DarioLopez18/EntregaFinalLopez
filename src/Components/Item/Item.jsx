@@ -1,7 +1,7 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import PropTypes from "prop-types"
 import "./Item.css"
+import ItemCount from '../ItemCount/ItemCount';
 
 const Item = (props) => {
   return (
@@ -11,7 +11,7 @@ const Item = (props) => {
       <Card.Body className='bodyCard'>
         <Card.Title className='tituloCard'>{props.title}</Card.Title>
         <Card.Text className='textoCard'>{props.descripcion}</Card.Text>
-        <Button variant="primary">{props.button}</Button>
+        <ItemCount/>
       </Card.Body>
     </Card>
     </>

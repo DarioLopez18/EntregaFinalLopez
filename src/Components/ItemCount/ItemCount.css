@@ -1,0 +1,38 @@
+.buttonsCart{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100;
+    gap: 2rem;
+    color: #d12b3e ;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #d12b3e;
+    padding: 0.3rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttonDecrement,.buttonIncrement{
+    border: none;
+    font-size: 2rem;
+    background-color: #d12b3e;
+    color: white;
+}
+
+.buttonAddToCart{
+    margin-top: 1rem;
+    background-color: #d12b3e;
+    color: white;
+    font-size: bold;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+.count{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1rem;
+}
