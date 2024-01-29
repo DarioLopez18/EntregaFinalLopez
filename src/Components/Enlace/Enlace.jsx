@@ -1,9 +1,9 @@
 import PropTypes from "prop-types"
 import "./enlace.css"
 
-const Enlace = (props) => {
+const Enlace = ({href,contenido}) => {
   return (
-    <a className="enlace" href={props.href}>{props.contenido}</a>
+    <a className="enlace" href={href}>{contenido}</a>
   )
 }
 

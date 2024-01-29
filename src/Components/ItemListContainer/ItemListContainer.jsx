@@ -3,7 +3,7 @@ import "./ItemListContainer.css"
 import { useState,useEffect } from "react";
 import Products from "../Products/Products"
 
-const ItemListContainer = (props) => {
+const ItemListContainer = ({greeting}) => {
 
   const [products,setProducts] = useState([]);
 
@@ -25,7 +25,7 @@ const ItemListContainer = (props) => {
   return (
     <>
     <div className="base3">
-        <h1 className="text">{props.greeting}</h1>
+        <h1 className="text">{greeting}</h1>
     </div>
       <section className='productsContainer'>
 

@@ -19,10 +19,10 @@ const Navbar = () => {
         <div className="base">
             <Dropdowns/>
             <div className="drop">
-                <Enlace href="#" contenido="Mis compras"/>
+                <Enlace href={"#"} contenido={"Mis compras"}/>
             </div>
             <div className="drop">
-                <Enlace href="#" contenido="Ingresa"/>
+                <Enlace href={"#"} contenido={"Ingresa"}/>
             </div>
             <div className="drop">
                 <CartWidget className="cartWidget"/>
