@@ -9,9 +9,9 @@
 }
 
 @media (max-width: 1200px) {
-    .dropdown{
-      font-size: 15px;
-    }
+  .dropdown {
+    font-size: 15px;
+  }
 }
 
 .dropdown:hover {

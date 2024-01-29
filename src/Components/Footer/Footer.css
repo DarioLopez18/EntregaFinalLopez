@@ -14,28 +14,27 @@
   color: chartreuse;
 }
 
-.margin{
+.margin {
   margin-right: 5px;
 }
 
 @media (max-width: 1200px) {
-  .footerStyle{
+  .footerStyle {
     margin-left: 0;
   }
-  .contenedorFooter{
+  .contenedorFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
-  .desarrollo{
+  .desarrollo {
     width: 100%;
   }
 }
 
-.contenedorFooter{
+.contenedorFooter {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
