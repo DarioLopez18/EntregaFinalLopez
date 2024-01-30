@@ -1,7 +1,7 @@
 .detalle,
 .precio {
   font-size: 1rem;
-  color: #d12b3e;
+  color: black;
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
