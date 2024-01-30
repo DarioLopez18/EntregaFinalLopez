@@ -30,7 +30,9 @@ const ItemCount = ({stock}) => {
           </div>
       </div>
       <div className="divAddToCart"> 
-          <Button detail={"Agregar al carrito"} className="buttonAddToCart"/>
+          <Button detail={"Agregar al carrito"} onClick={()=>setCount(() =>{
+            return 1
+          })} className="buttonAddToCart"/>
       </div>
     </div>
 

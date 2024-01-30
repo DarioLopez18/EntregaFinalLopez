@@ -1,9 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Fuente de alimentacion",
-    "img": "https://acortar.link/O101XI",
-    "descripcion": "Fuente Corsair 550W 80 Plus Bronze",
+    "title": "Fuente de alimentación",
+    "img": "http://surl.li/pzcza",
+    "descripcion": "Fuente Corsair 1200W",
+    "detail": "Fuente Corsair 1200W 80 Plus Platinum Full Modular HX1200, Formato ATX, color negro, ATX, Modo híbrido, incluye cable a 220V",
+    "price": 279900,
     "button": "Ver mas",
     "stock": 10
   },
@@ -12,6 +14,8 @@
     "title": "Notebook Gamer",
     "img": "https://acortar.link/SLS5hS",
     "descripcion": "Notebook Gamer Acer Nitro 5 15.6",
+    "detail": "Notebook Gamer Acer Nitro 5 15.6 FHD Core i5 11400H 8GB 256GB SSD NVMe GTX 1650 W11 144Hz GAME PASS ULTIMATE 1 MONTH,windows 11 home",
+    "price": 932290,
     "button": "Ver mas",
     "stock": 5
   },
@@ -19,7 +23,9 @@
     "id": 3,
     "title": "Procesador",
     "img": "https://acortar.link/dPclDN",
-    "descripcion": "Procesador AMD Ryzen 9 5950X 4.9GHz",
+    "descripcion": "Procesador AMD Ryzen 9 5950X 4.6GHz",
+    "detail": "Procesador AMD Ryzen 9 7900X3D 5.6GHz Turbo AM5 - No Incluye Cooler - AM5 Ryzen 7000 - AMD Radeon Graphics - 5600 mhz",
+    "price": 920000,
     "button": "Ver mas",
     "stock": 5
   },
@@ -28,6 +34,8 @@
     "title": "Gabinete",
     "img": "https://acortar.link/BmqxdQ",
     "descripcion": "Gabinete Kolink Inspire K3 RGB  M-ATX",
+    "detail": "Gabinete Kolink Inspire K3 RGB  M-ATX Vidrio Templado - ITX,M-ATX - 4 slots",
+    "price": 51900,
     "button": "Ver mas",
     "stock": 5
   },
@@ -36,6 +44,8 @@
     "title": "Silla Gamer",
     "img": "https://acortar.link/9sge4g",
     "descripcion": "Silla Gamer Vertagear Racing Series",
+    "detail": "Silla Gamer Vertagear Racing Series SL1200 HygennX Negro y Blanco (Peso MAX. 120kg)",
+    "price": 289999,
     "button": "Ver mas",
     "stock": 5
   },
@@ -44,6 +54,8 @@
     "title": "Mother",
     "img": "https://acortar.link/IyArrf",
     "descripcion": "Mother Asrock X670E Taichi Carrara",
+    "detail": "Mother Asrock X670E Taichi Carrara AM5- Tipo de Memoria DDR5 - SLOT DE MEMORIA - PLACA DE SONIDO 7.1 Realtek ALC 4080",
+    "price": 869300,
     "button": "Ver mas",
     "stock": 8
   },
@@ -52,6 +64,8 @@
     "title": "SSD M.2",
     "img": "https://acortar.link/jygvaU",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
+    "detail" : "Disco Solido SSD M.2 Team 2TB Cardea Zero Z440 5000MB/s NVMe PCIe Gen4",
+    "price": 166900,
     "button": "Ver mas",
     "stock": 5
   },
@@ -59,7 +73,9 @@
     "id": 8,
     "title": "Memoria Ram",
     "img": "https://acortar.link/HgeG0G",
-    "descripcion": "Memoria GeiL DDR4 16GB 3000MHz",
+    "descripcion": "Memoria GeiL DDR4 8GB 3600MHz",
+    "detail": "Memoria GeiL DDR4 8GB 3600MHz Orion RGB Red",
+    "price": 43850,
     "button": "Ver mas",
     "stock": 5
   },
@@ -68,6 +84,8 @@
     "title": "Cable HDMI",
     "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_19689_Cable_HDMI_Nisuta_20m_Dorado_V1.4_con_Filtros_2160P_4K_x_2K_4af7cdc5-grn.jpg",
     "descripcion": "Cable hdmi alta velocidad",
+    "detail": "Cable HDMI Nisuta 5m Dorado V2.0 con Filtros 2160P 4K x 2K",
+    "price": 35700,
     "button": "Ver mas",
     "stock": 5
   }
