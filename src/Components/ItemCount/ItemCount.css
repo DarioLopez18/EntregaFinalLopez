@@ -1,26 +1,14 @@
 .buttonsCart {
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
-  gap: 2rem;
   color: #d12b3e;
   align-items: center;
   justify-content: space-around;
-  font-size: 1rem;
   background-color: #d12b3e;
-  padding: 0.3rem;
   color: white;
   border-radius: 5px;
-  margin: 0 auto;
-  min-width: 90%;
-}
-
-.buttonDecrement,
-.buttonIncrement {
-  border: none;
-  font-size: 1rem;
-  background-color: #d12b3e;
-  color: white;
+  width: 90%;
+  margin-bottom: 1rem;
 }
 
 .divAddToCart{
@@ -28,18 +16,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-}
-
-.buttonAddToCart {
-  background-color: #d12b3e;
-  color: white;
-  font-size: 1rem;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 5px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  min-width: 90%;
+    margin-bottom: 1rem;
 }
 
 .count {
