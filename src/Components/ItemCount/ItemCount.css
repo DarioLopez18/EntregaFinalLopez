@@ -11,12 +11,12 @@
   margin-bottom: 1rem;
 }
 
-.divAddToCart{
-    min-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
+.divAddToCart {
+  min-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .count {
@@ -28,8 +28,8 @@
 }
 
 .containerCarts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
