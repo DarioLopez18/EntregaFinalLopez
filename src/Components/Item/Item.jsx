@@ -11,8 +11,8 @@ const Item = (props) => {
       <Card.Body className='bodyCard'>
         <Card.Title className='tituloCard'>{props.title}</Card.Title>
         <Card.Text className='textoCard'>{props.descripcion}</Card.Text>
-        <ItemCount/>
       </Card.Body>
+      <ItemCount/>
     </Card>
     </>
   )
