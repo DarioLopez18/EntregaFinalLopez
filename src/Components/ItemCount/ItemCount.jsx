@@ -1,7 +1,8 @@
 import { useState } from "react"
 import "./ItemCount.css"
+import PropTypes from "prop-types"
 
-const ItemCount = () => {
+const ItemCount = ({stock}) => {
   const [count,setCount] = useState(1);
 
   return (
@@ -17,7 +18,7 @@ const ItemCount = () => {
         } )}>-</button>
         <p className="count">{count}</p>
         <button className="buttonIncrement" onClick={()=> setCount((count) => {
-          if(count < 10) {
+          if(count < stock) {
             return count + 1
           }else{
               return count
@@ -34,4 +35,7 @@ const ItemCount = () => {
   )
 }
 
+ItemCount.propTypes = {
+  stock: PropTypes.number.isRequired
+}
 export default ItemCount

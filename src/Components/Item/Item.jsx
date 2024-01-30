@@ -12,7 +12,7 @@ const Item = (props) => {
         <Card.Title className='tituloCard'>{props.title}</Card.Title>
         <Card.Text className='textoCard'>{props.descripcion}</Card.Text>
       </Card.Body>
-      <ItemCount/>
+      <ItemCount stock={props.stock}/>
     </Card>
     </>
   )
@@ -23,6 +23,7 @@ Item.propTypes = {
     title: PropTypes.string.isRequired,
     button: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired,
+    stock: PropTypes.number.isRequired
 }
 
 export default Item
