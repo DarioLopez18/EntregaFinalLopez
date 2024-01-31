@@ -8,10 +8,11 @@
 .textFooter {
   color: white;
   gap: 2rem;
+  transition: transform 0.3s ease;
 }
 
 .textFooter:hover {
-  color: chartreuse;
+  transform: scale(1.1);
 }
 
 .margin {
