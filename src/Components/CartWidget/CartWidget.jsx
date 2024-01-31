@@ -4,8 +4,10 @@ import "./CartWidget.css"
 const CartWidget = () => {
   return (
     <>
+      <a href="#" className="EnlaceCardWidget">
         <img src={cartIcon} className="iconCart" alt="carritoDeCompras" />
-        <p>1</p>
+        <p className="pCard">1</p>
+      </a>
     </>
   )
 }

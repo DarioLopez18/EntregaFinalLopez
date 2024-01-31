@@ -9,24 +9,28 @@ const ItemCount = ({stock}) => {
     <>
     <div className="containerCarts">
       <div className="buttonsCart">
-        <div>
-        <Button  detail={"-"} onClick={()=> setCount((count) =>{
+        <div className="divItemCount">
+        <button className="buttonItemCount" onClick={()=> setCount((count) =>{
           if(count > 1){
               return count - 1
           }else{
               return count
           }
-        } )}/>
+        } )}>
+          -
+        </button>
         </div>
         <p className="count">{count}</p>
-        <div>
-        <Button  detail={"+"} onClick={()=> setCount((count) => {
-          if(count < stock) {
-            return count + 1
+        <div className="divItemCount"> 
+        <button className="buttonItemCount" onClick={()=> setCount((count) =>{
+          if(count < stock){
+              return count + 1
           }else{
               return count
           }
-        } )}/>
+        } )}>
+          +
+        </button>
           </div>
       </div>
       <div className="divAddToCart"> 

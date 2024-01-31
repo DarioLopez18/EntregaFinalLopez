@@ -7,3 +7,20 @@ p {
 .iconCart {
   height: 23px;
 }
+
+.EnlaceCardWidget{
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.pCard{
+  margin: 0;
+}
+
+.EnlaceCardWidget:hover{
+  transform: scale(1.2);
+}
