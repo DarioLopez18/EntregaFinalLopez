@@ -50,5 +50,13 @@
   {
     "id": 13,
     "name": "CELULARES"
+  },
+  {
+    "id": 14,
+    "name":"ALMACENAMIENTO"
+  },
+  {
+    "id":15,
+    "name":"CABLES"
   }
 ]

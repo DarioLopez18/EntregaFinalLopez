@@ -8,7 +8,9 @@
     "price": 279900,
     "button": "Ver mas",
     "stock": 10,
-    "categoria": ""
+    "categoria": {
+      "id": 3
+    }
   },
   {
     "id": 2,
@@ -19,7 +21,9 @@
     "price": 932290,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": ""
+    "categoria": {
+      "id": 1
+    }
   },
   {
     "id": 3,
@@ -30,7 +34,9 @@
     "price": 920000,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": ""
+    "categoria": {
+      "id": 7
+    }
   },
   {
     "id": 4,
@@ -41,7 +47,9 @@
     "price": 51900,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": ""
+    "categoria": {
+      "id": 11
+    }
   },
   {
     "id": 5,
@@ -52,7 +60,9 @@
     "price": 289999,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": ""
+    "categoria": {
+      "id": 10
+    }
   },
   {
     "id": 6,
@@ -63,18 +73,22 @@
     "price": 869300,
     "button": "Ver mas",
     "stock": 8,
-    "categoria": ""
+    "categoria": {
+      "id": 2
+    }
   },
   {
     "id": 7,
     "title": "SSD M.2",
     "img": "https://acortar.link/jygvaU",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
-    "detail" : "Disco Solido SSD M.2 Team 2TB Cardea Zero Z440 5000MB/s NVMe PCIe Gen4",
+    "detail": "Disco Solido SSD M.2 Team 2TB Cardea Zero Z440 5000MB/s NVMe PCIe Gen4",
     "price": 166900,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": ""
+    "categoria": {
+      "id": 14
+    }
   },
   {
     "id": 8,
@@ -85,7 +99,9 @@
     "price": 43850,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": ""
+    "categoria": {
+      "id": 9
+    }
   },
   {
     "id": 9,
@@ -96,6 +112,8 @@
     "price": 35700,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": ""
+    "categoria": {
+      "id": 15
+    }
   }
 ]
