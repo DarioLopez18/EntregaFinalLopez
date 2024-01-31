@@ -14,7 +14,7 @@ const ItemDetailContainer = ({id}) => {
             const product = data.find(p=>p.id === id)
             setTimeout(()=>{
               setProduct(product)
-            },2000)
+            },1000)
           }catch(e){
             console.log(e)
           }

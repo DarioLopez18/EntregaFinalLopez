@@ -12,7 +12,7 @@ const ItemListContainer = ({greeting}) => {
           const data = await response.json()
           setTimeout(()=>{
             setProducts(data)
-          },2000)
+          },1000)
         }catch(e){
           console.log(e)
         }
