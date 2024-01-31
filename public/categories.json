@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "NOTEBOOKS"
+  },
+  {
+    "id": 2,
+    "name": "MOTHERBOARDS"
+  },
+  {
+    "id": 3,
+    "name": "FUENTES"
+  },
+  {
+    "id": 4,
+    "name": "MOUSE"
+  },
+  {
+    "id": 5,
+    "name": "MONITORES"
+  },
+  {
+    "id": 6,
+    "name": "GPU"
+  },
+  {
+    "id": 7,
+    "name": "PROCESADORES"
+  },
+  {
+    "id": 8,
+    "name": "PERIFERICOS"
+  },
+  {
+    "id": 9,
+    "name": "RAM"
+  },
+  {
+    "id": 10,
+    "name": "Sillas"
+  },
+  {
+    "id": 11,
+    "name": "Gabinetes"
+  },
+  {
+    "id": 12,
+    "name": "Smartwach"
+  },
+  {
+    "id": 13,
+    "name": "Celulares"
+  }
+]

@@ -7,7 +7,8 @@
     "detail": "Fuente Corsair 1200W 80 Plus Platinum Full Modular HX1200, Formato ATX, color negro, ATX, Modo híbrido, incluye cable a 220V",
     "price": 279900,
     "button": "Ver mas",
-    "stock": 10
+    "stock": 10,
+    "categoria": ""
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "detail": "Notebook Gamer Acer Nitro 5 15.6 FHD Core i5 11400H 8GB 256GB SSD NVMe GTX 1650 W11 144Hz GAME PASS ULTIMATE 1 MONTH,windows 11 home",
     "price": 932290,
     "button": "Ver mas",
-    "stock": 5
+    "stock": 5,
+    "categoria": ""
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "detail": "Procesador AMD Ryzen 9 7900X3D 5.6GHz Turbo AM5 - No Incluye Cooler - AM5 Ryzen 7000 - AMD Radeon Graphics - 5600 mhz",
     "price": 920000,
     "button": "Ver mas",
-    "stock": 5
+    "stock": 5,
+    "categoria": ""
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "detail": "Gabinete Kolink Inspire K3 RGB  M-ATX Vidrio Templado - ITX,M-ATX - 4 slots",
     "price": 51900,
     "button": "Ver mas",
-    "stock": 5
+    "stock": 5,
+    "categoria": ""
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "detail": "Silla Gamer Vertagear Racing Series SL1200 HygennX Negro y Blanco (Peso MAX. 120kg)",
     "price": 289999,
     "button": "Ver mas",
-    "stock": 5
+    "stock": 5,
+    "categoria": ""
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "detail": "Mother Asrock X670E Taichi Carrara AM5- Tipo de Memoria DDR5 - SLOT DE MEMORIA - PLACA DE SONIDO 7.1 Realtek ALC 4080",
     "price": 869300,
     "button": "Ver mas",
-    "stock": 8
+    "stock": 8,
+    "categoria": ""
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "detail" : "Disco Solido SSD M.2 Team 2TB Cardea Zero Z440 5000MB/s NVMe PCIe Gen4",
     "price": 166900,
     "button": "Ver mas",
-    "stock": 5
+    "stock": 5,
+    "categoria": ""
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "detail": "Memoria GeiL DDR4 8GB 3600MHz Orion RGB Red",
     "price": 43850,
     "button": "Ver mas",
-    "stock": 5
+    "stock": 5,
+    "categoria": ""
   },
   {
     "id": 9,
@@ -87,6 +95,7 @@
     "detail": "Cable HDMI Nisuta 5m Dorado V2.0 con Filtros 2160P 4K x 2K",
     "price": 35700,
     "button": "Ver mas",
-    "stock": 5
+    "stock": 5,
+    "categoria": ""
   }
 ]
