@@ -1,10 +1,10 @@
 import "./ItemCount.css"
 import PropTypes from "prop-types"
 import Button from "../Button/Button"
-import {useContador} from "../../Hooks/useContador/useContador"
+import {useCount} from "../../Hooks/useCount/useCount"
 
 const ItemCount = ({stock}) => {
-  const {count,increment,decrement,reset} = useContador(1,stock,1);
+  const {count,increment,decrement,reset} = useCount(1,stock,1);
   return (
     <>
     <div className="containerCarts">

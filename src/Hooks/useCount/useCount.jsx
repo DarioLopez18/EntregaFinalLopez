@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import { useState } from "react"
 
-export const useContador = (valorInicial,valorMax,valorMin) => {
+export const useCount = (valorInicial,valorMax,valorMin) => {
     const [count,setCount] = useState(valorInicial)
 
     const increment = () =>{
@@ -19,7 +19,7 @@ export const useContador = (valorInicial,valorMax,valorMin) => {
     return {count,decrement,increment,reset}
 }
 
-useContador.propTypes = {
+useCount.propTypes = {
     valorInicial: PropTypes.number.isRequired,
     valorMax: PropTypes.number.isRequired,
     valorMin: PropTypes.number.isRequired
