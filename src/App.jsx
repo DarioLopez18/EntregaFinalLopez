@@ -4,6 +4,7 @@ import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 import Navbar from './Components/Navbar/Navbar'
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Error from './Components/Error/Error'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
               <></>
           }/>
           <Route path='*' element = {
-            <></>
+            <Error/>
           }/>
         </Routes>
         <Footer/>
