@@ -2,6 +2,8 @@ import Card from 'react-bootstrap/Card';
 import PropTypes from "prop-types"
 import "./Item.css"
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
+
 const Item = (props) => {
   return (
     <>
@@ -12,7 +14,9 @@ const Item = (props) => {
         <Card.Text className='textoCard'>{props.descripcion}</Card.Text>
       </Card.Body>
       <div className='buttonItemProps'>
-        <Button onClick={()=>{}} detail={props.button}/>
+        <Link className='link' to = {`/item/${props.id}`}>
+          <Button onClick={()=>{}} detail={props.button}/>
+        </Link>
       </div>
     </Card>
     </>
@@ -24,7 +28,8 @@ Item.propTypes = {
     title: PropTypes.string.isRequired,
     button: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired,
-    stock: PropTypes.number.isRequired
+    stock: PropTypes.number.isRequired,
+    id: PropTypes.number.isRequired,
 }
 
 export default Item

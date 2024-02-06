@@ -15,17 +15,20 @@ function App() {
           <Route path='/' element = {
               <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
           }/>
-          <Route path='/category/:id' element = {
-              <></>
+          <Route path='/category/:categoryId' element = {
+              <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
           }/>
           <Route path='/item/:id' element = {
-              <ItemDetailContainer id={1}/>
+              <ItemDetailContainer/>
           }/>
           <Route path='/cart' element = {
               <></>
           }/>
           <Route path='/checkout' element = {
               <></>
+          }/>
+          <Route path='*' element = {
+            <></>
           }/>
         </Routes>
         <Footer/>

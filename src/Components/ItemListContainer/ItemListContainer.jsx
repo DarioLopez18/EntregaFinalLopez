@@ -1,24 +1,29 @@
 import PropTypes from "prop-types"
 import "./ItemListContainer.css"
 import ItemList from "../ItemList/ItemList"
-import { useState,useEffect } from "react";
+import { useState,useEffect} from "react";
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = ({greeting}) => {
   const [products,setProducts] = useState([]);
+  const {categoryId} = useParams();
   useEffect(()=>{
       const fetchData = async() =>{
         try{
-          const response = await fetch("./products.json")
+          const response = await fetch("/products.json")
           const data = await response.json()
-          setTimeout(()=>{
+          if(categoryId == undefined){
             setProducts(data)
-          },1000)
+          }else{
+            const productsFiltered = data.filter(p=>p.categoria.id == categoryId)
+            setProducts(productsFiltered)
+          }
         }catch(e){
           console.log(e)
         }
       }
       fetchData()
-    },[])
+    },[categoryId])
   return (
     <>
     <div className="base3">

@@ -9,7 +9,7 @@ const ItemList = ({products}) => {
     <section className='productsContainer'>
     {products.length == 0 ? <Loader text="Cargando los productos"/> : products.map(p=>{
       return(
-        <Item key={p.id} title = {p.title} descripcion={p.descripcion} img={p.img} button={p.button} stock = {p.stock}/>
+        <Item key={p.id} id={p.id} title = {p.title} descripcion={p.descripcion} img={p.img} button={p.button} stock = {p.stock}/>
       )})}
     </section>
   )

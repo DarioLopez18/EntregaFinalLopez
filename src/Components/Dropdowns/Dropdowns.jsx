@@ -3,6 +3,7 @@ import { Dropdown, DropdownItem,DropdownMenu, DropdownToggle } from "reactstrap"
 import { useState, useEffect } from "react";
 import "./Dropdowns.css"
 import Loader from "../Loader/Loader";
+import { Link } from "react-router-dom";
 
 const Dropdowns = () => {
   const [dropdown,setDropdown] = useState(false);
@@ -13,7 +14,7 @@ const Dropdowns = () => {
   useEffect(()=>{
     const fetchData = async() =>{
       try{
-        const response = await fetch("./categories.json")
+        const response = await fetch("/categories.json")
         const data = await response.json()
         setCategories(data)
       }catch(e){
@@ -34,9 +35,11 @@ const Dropdowns = () => {
             </DropdownItem>
             {categories.length == 0 ? <Loader text="Cargando categorias..."/> : categories.map(categoria=>{
               return(
-                <DropdownItem key={categoria.id} className="item">
-                {categoria.name}
-                </DropdownItem>
+                <Link key={categoria.id} to = {`/category/${categoria.id}`}>
+                  <DropdownItem className="item">
+                  {categoria.name}
+                  </DropdownItem>
+                </Link>
               )
             })}
 
