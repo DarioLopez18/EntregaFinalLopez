@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Fuente de alimentación",
-    "img": "http://surl.li/pzcza",
+    "img": "/fuente_corsair.jpg",
     "descripcion": "Fuente Corsair 1200W",
     "detail": "Fuente Corsair 1200W 80 Plus Platinum Full Modular HX1200, Formato ATX, color negro, ATX, Modo híbrido, incluye cable a 220V",
     "price": 279900,
@@ -16,7 +16,7 @@
   {
     "id": 10,
     "title": "Fuente de alimentación",
-    "img": "https://acortar.link/Ws0eR5",
+    "img": "/fuente_white.jpg",
     "descripcion": "Fuente Corsair 850W",
     "detail": "Fuente ASUS ROG STRIX 850W 80 Plus Gold Full Modular White 850G - ROG-STRIX-850G-WHITE",
     "price": 212500,
@@ -30,7 +30,7 @@
   {
     "id": 11,
     "title": "Fuente de alimentación",
-    "img": "https://acortar.link/G0e5Pt",
+    "img": "/fuente_modular.jpg",
     "descripcion": "Fuente Corsair 850W",
     "detail": "Fuente ASUS ROG STRIX 1000W 80 Plus Gold Full Modular 1000G ROG-STRIX-1000G",
     "price": 268900,
@@ -44,7 +44,7 @@
   {
     "id": 12,
     "title": "Notebook Gamer",
-    "img": "https://acortar.link/rGUvKw",
+    "img": "/notebook_gamer_asus_rog.jpg",
     "descripcion": "Notebook ASUS ROG STRIX",
     "detail": "Notebook Gamer ASUS ROG STRIX G513RM 15.6 WQHD IPS Ryzen 7 6800H 16GB DDR5 512GB SSD NVMe RTX 3060 W11 Home 165Hz",
     "price": 2499999,
@@ -58,7 +58,7 @@
   {
     "id": 13,
     "title": "Notebook Gamer",
-    "img": "https://acortar.link/l4bg7E",
+    "img": "/xgp.jpg",
     "descripcion": "Notebook Gamer XPG XENIA",
     "detail": "Notebook Gamer XPG XENIA FHD IPS 15.6 Core i7 12650H 16GB 512GB SSD NVMe RTX 4050 6GB W11 144Hz",
     "price": 1865550,
@@ -72,7 +72,7 @@
   {
     "id": 2,
     "title": "Notebook Gamer",
-    "img": "https://acortar.link/SLS5hS",
+    "img": "/acer.jpg",
     "descripcion": "Notebook Gamer Acer Nitro 5 15.6",
     "detail": "Notebook Gamer Acer Nitro 5 15.6 FHD Core i5 11400H 8GB 256GB SSD NVMe GTX 1650 W11 144Hz GAME PASS ULTIMATE 1 MONTH,windows 11 home",
     "price": 932290,
@@ -86,7 +86,7 @@
   {
     "id": 3,
     "title": "Procesador",
-    "img": "https://acortar.link/dPclDN",
+    "img": "/ryzen9.jpg",
     "descripcion": "Procesador AMD Ryzen 9 5950X 4.6GHz",
     "detail": "Procesador AMD Ryzen 9 7900X3D 5.6GHz Turbo AM5 - No Incluye Cooler - AM5 Ryzen 7000 - AMD Radeon Graphics - 5600 mhz",
     "price": 920000,
@@ -100,7 +100,7 @@
   {
     "id": 14,
     "title": "Procesador",
-    "img": "https://acortar.link/LT023a",
+    "img": "/r9.jpg",
     "descripcion": "Procesador AMD Ryzen 9 7950X3D",
     "detail": "Procesador AMD Ryzen 9 7950X3D 5.7GHz AM5 - No incluye Cooler - AMD Radeon Graphics - última generación",
     "price": 945000,
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "title": "Procesador",
-    "img": "https://acortar.link/Ru4a9W",
+    "img": "/r9_2.jpg",
     "descripcion": "Procesador AMD Ryzen 9 7950X3D",
     "detail": "Procesador AMD Ryzen 9 7900 5.4GHz Turbo AM5 + AMD Wraith Prism Incluye cooler AMD de máxima tecnología",
     "price": 627000,
@@ -128,7 +128,7 @@
   {
     "id": 4,
     "title": "Gabinete",
-    "img": "https://acortar.link/BmqxdQ",
+    "img": "/g_kotlik.jpg",
     "descripcion": "Gabinete Kolink Inspire K3 RGB  M-ATX",
     "detail": "Gabinete Kolink Inspire K3 RGB  M-ATX Vidrio Templado - ITX,M-ATX - 4 slots",
     "price": 51900,
@@ -142,8 +142,8 @@
   {
     "id": 16,
     "title": "Gabinete",
-    "img": "https://acortar.link/skHlPD",
-    "descripcion": "Gabinete Kolink Inspire K3 RGB  M-ATX",
+    "img": "/gabinete.jpg",
+    "descripcion": "Gabinete Antec Torque",
     "detail": "Gabinete Antec Torque ARGB Vidrio Templado con cristal templado de máxima calidad y tecnología",
     "price": 559500,
     "button": "Ver mas",
@@ -156,8 +156,8 @@
   {
     "id": 18,
     "title": "Gabinete",
-    "img": "https://acortar.link/EbAshO",
-    "descripcion": "Gabinete Antec Torque ARGB Vidrio Templado",
+    "img": "/gabinete_lian_li.jpg",
+    "descripcion": "Gabinete Lian Li",
     "detail": "Gabinete Lian Li Odyssey X Silver con cristal templado de máxima calidad y tecnología",
     "price": 559500,
     "button": "Ver mas",
@@ -170,7 +170,7 @@
   {
     "id": 17,
     "title": "Mouse",
-    "img": "https://acortar.link/wX3fvj",
+    "img": "/g502.jpg",
     "descripcion": "Mouse logitech",
     "detail": "Mouse Logitech G502 Gaming Hero High Performance RGB, el mouse gamer hecho para vos",
     "price": 79900,
@@ -184,7 +184,7 @@
   {
     "id": 21,
     "title": "Mouse",
-    "img": "https://acortar.link/sB0wyS",
+    "img": "/mouse.jpg",
     "descripcion": "Mouse Logitech",
     "detail": "Mouse Logitech Aurora G705 Wireless White RGB, el mouse gamer hecho para vos",
     "price": 98900,
@@ -198,7 +198,7 @@
   {
     "id": 22,
     "title": "Mouse",
-    "img": "https://acortar.link/JhJyON",
+    "img": "/mouse_3.jpg",
     "descripcion": "Mouse Hyperx",
     "detail": "Mouse Hyperx Pulsefire Haste 2 Black WirelessB, el mouse gamer hecho para vos",
     "price": 68800,
@@ -212,7 +212,7 @@
   {
     "id": 20,
     "title": "GPU",
-    "img": "https://acortar.link/owSx5u",
+    "img": "/4080.jpg",
     "descripcion": "GPU ASUS 4080",
     "detail": "Placa de Video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC - Consumo 350w",
     "price": 2258610,
@@ -226,7 +226,7 @@
   {
     "id": 24,
     "title": "GPU",
-    "img": "https://acortar.link/p9TBC5",
+    "img": "/3090.jpg",
     "descripcion": "Placa de Video MSI GeForce",
     "detail": "Placa de Video MSI GeForce RTX 3090 24GB GDDR6X VENTUS 3X OC la GPU ideal para correr todos tus juegos favoritos",
     "price": 1174100,
@@ -240,7 +240,7 @@
   {
     "id": 25,
     "title": "GPU",
-    "img": "https://acortar.link/vcC3KG",
+    "img": "/zotac.jpg",
     "descripcion": "Placa de Video Zotac",
     "detail": "Placa de Video Zotac GeForce RTX 3090 24GB GDDR6X Trinity la GPU ideal para correr todos tus juegos favoritos",
     "price": 1162650,
@@ -254,7 +254,7 @@
   {
     "id": 5,
     "title": "Silla Gamer",
-    "img": "https://acortar.link/9sge4g",
+    "img": "/sl1200.jpg",
     "descripcion": "Silla Gamer Vertagear Racing Series",
     "detail": "Silla Gamer Vertagear Racing Series SL1200 HygennX Negro y Blanco (Peso MAX. 120kg)",
     "price": 289999,
@@ -268,7 +268,7 @@
   {
     "id": 26,
     "title": "Silla Gamer Vertagear",
-    "img": "https://acortar.link/y8Wvsf",
+    "img": "/sl3800.jpg",
     "descripcion": "Silla Gamer Vertagear Racing Series",
     "detail": "Silla Gamer Vertagear SL3800 HygennX Rojo Burgundy Ergonomic (Peso MAX. 100kg), la silla ideal para jugar a lo que mas te guste",
     "price": 315999,
@@ -282,7 +282,7 @@
   {
     "id": 27,
     "title": "Silla Gamer Vertagear",
-    "img": "https://acortar.link/Mpw69Y",
+    "img": "/sl2800.jpg",
     "descripcion": "Silla Gamer Vertagear Racing Series",
     "detail": "Silla Gamer Vertagear Alienware S3800 HygennX Negra y Blanca (Peso MAX. 100kg),la silla ideal para jugar a lo que mas te guste ",
     "price": 466480,
@@ -296,7 +296,7 @@
   {
     "id": 6,
     "title": "Mother",
-    "img": "https://acortar.link/IyArrf",
+    "img": "/motherAR.jpg",
     "descripcion": "Mother Asrock X670E Taichi Carrara",
     "detail": "Mother Asrock X670E Taichi Carrara AM5- Tipo de Memoria DDR5 - SLOT DE MEMORIA - PLACA DE SONIDO 7.1 Realtek ALC 4080",
     "price": 869300,
@@ -310,7 +310,7 @@
   {
     "id": 28,
     "title": "Mother",
-    "img": "https://acortar.link/joWy4w",
+    "img": "/mother.jpg",
     "descripcion": "Mother ASUS ROG",
     "detail": "Mother ASUS ROG STRIX X670E-E GAMING WIFI AM5 DDR5, compatible con los nuevos procesadores de última generación. A divertirse sin parar ",
     "price": 720000,
@@ -324,7 +324,7 @@
   {
     "id": 23,
     "title": "Mother",
-    "img": "https://acortar.link/ZHRslU",
+    "img": "/mother2.jpg",
     "descripcion": "Mother ASUS",
     "detail": "Mother ASUS ROG CROSSHAIR X670E HERO última tecnología en mother, la nueva generación",
     "price": 948000,
@@ -338,7 +338,7 @@
   {
     "id": 29,
     "title": "Monitor",
-    "img": "https://acortar.link/t37oui",
+    "img": "/ms.jpg",
     "descripcion": "Monitor Gamer Samsung",
     "detail": "Monitor Gamer Samsung 34 G8 Odyssey OLED 175Hz Curvo Wide WQHD 2K FreeSync. Para que no te pierdas ningún detalle de tu juego favorito",
     "price": 2199500,
@@ -352,7 +352,7 @@
   {
     "id": 30,
     "title": "Monitor",
-    "img": "https://acortar.link/MCT5L2",
+    "img": "/mg.jpg",
     "descripcion": "Monitor Gigabyte ",
     "detail": "Monitor Gigabyte 34 UltraWide G34WQC Curvo 144Hz VA 2K QHD 21:9 GSync FreeSync Parlantes. Para que no te pierdas ningún detalle de tu juego favorito",
     "price": 799850,
@@ -366,7 +366,7 @@
   {
     "id": 31,
     "title": "Monitor",
-    "img": "https://acortar.link/VmANzs",
+    "img": "/mlg.jpg",
     "descripcion": "Monitor LG",
     "detail": "Monitor LG 34 UltraWide 34WP65C-B Curvo 160Hz VA 2K QHD 21:9 FreeSync Parlantes. Para que no te pierdas ningún detalle de tu juego favorito",
     "price": 799950,
@@ -380,7 +380,7 @@
   {
     "id": 7,
     "title": "SSD M.2",
-    "img": "https://acortar.link/jygvaU",
+    "img": "/m.2.jpg",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
     "detail": "Disco Solido SSD M.2 Team 2TB Cardea Zero Z440 5000MB/s NVMe PCIe Gen4",
     "price": 166900,
@@ -394,7 +394,7 @@
   {
     "id": 32,
     "title": "SSD M.2",
-    "img": "https://acortar.link/8GHW4c",
+    "img": "/ssd_1.jpg",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
     "detail": "Disco Solido SSD Team 1TB T-Force Delta MAX RGB Black 550MB/s para que guardes tus recuerdos favoritos",
     "price": 74810,
@@ -408,7 +408,7 @@
   {
     "id": 33,
     "title": "SSD M.2",
-    "img": "https://acortar.link/vrmG2r",
+    "img": "/mp2K.jpg",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
     "detail": "Disco Sólido SSD Kingston 960GB A400 500MB/s para que guardes tus recuerdos favoritos",
     "price": 71700,
@@ -422,7 +422,7 @@
   {
     "id": 8,
     "title": "Memoria Ram",
-    "img": "https://acortar.link/HgeG0G",
+    "img": "/memoriaGEIL.jpg",
     "descripcion": "Memoria GeiL DDR4 8GB 3600MHz",
     "detail": "Memoria GeiL DDR4 8GB 3600MHz Orion RGB Red",
     "price": 43850,
@@ -436,7 +436,7 @@
   {
     "id": 34,
     "title": "Memoria Ram",
-    "img": "https://acortar.link/O3XrRh",
+    "img": "/memoriaRamRGB.jpg",
     "descripcion": "Memoria Team",
     "detail": "Memoria Team DDR4 32GB (2x16GB) 3200MHz T-Force Night Hawk RGB Black, para la mayor velocidad de tu PC.",
     "price": 121999,
@@ -450,7 +450,7 @@
   {
     "id": 35,
     "title": "Memoria Ram",
-    "img": "https://acortar.link/BqbOzT",
+    "img": "/memoriaRam3.jpg",
     "descripcion": "Memoria Team",
     "detail": "Memoria Team DDR5 32GB (2x16GB) 6400MHz T-Force Delta RGB Black, para la mayor velocidad de tu PC.",
     "price": 166700,
@@ -464,7 +464,7 @@
   {
     "id": 9,
     "title": "Cable HDMI",
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_19689_Cable_HDMI_Nisuta_20m_Dorado_V1.4_con_Filtros_2160P_4K_x_2K_4af7cdc5-grn.jpg",
+    "img": "/hdmi_negro.jpg",
     "descripcion": "Cable hdmi alta velocidad",
     "detail": "Cable HDMI Nisuta 5m Dorado V2.0 con Filtros 2160P 4K x 2K para conectar a tus dos pantallas!",
     "price": 35700,
@@ -478,7 +478,7 @@
   {
     "id": 36,
     "title": "Cable de poder",
-    "img": "https://acortar.link/iUGxEo",
+    "img": "/cp.jpg",
     "descripcion": "Cable hdmi alta velocidad",
     "detail": "Cable de poder para - fuente de PC de 3 patas 0,75mm 1,5mts para darle a tu pc, la potencia que necesita",
     "price": 2999,
@@ -492,7 +492,7 @@
   {
     "id": 37,
     "title": "Cable hdmi",
-    "img": "https://acortar.link/A2MR9V",
+    "img": "/hdmi3mts.jpg",
     "descripcion": "Cable hdmi alta velocidad",
     "detail": "Cable HDMI de 3m V1.4 con filtros 1080P malla de tela para conectar tu pc a tu televisor favorito,y jugar en 4K",
     "price": 10850,

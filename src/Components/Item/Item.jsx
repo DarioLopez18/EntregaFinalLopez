@@ -8,7 +8,7 @@ const Item = (props) => {
   return (
     <>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.img} />
+      <Card.Img variant="top" src={props.img} alt={props.title} />
       <Card.Body className='bodyCard'>
         <Card.Title className='tituloCard'>{props.title}</Card.Title>
         <Card.Text className='textoCard'>{props.descripcion}</Card.Text>
