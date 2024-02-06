@@ -23,3 +23,7 @@
 item:hover {
   background-color: #d12b3e;
 }
+
+.dropdownLink{
+  text-decoration: none;
+}
