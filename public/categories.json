@@ -28,10 +28,6 @@
     "name": "PROCESADORES"
   },
   {
-    "id": 8,
-    "name": "PERIFERICOS"
-  },
-  {
     "id": 9,
     "name": "RAM"
   },
@@ -42,14 +38,6 @@
   {
     "id": 11,
     "name": "GABINETES"
-  },
-  {
-    "id": 12,
-    "name": "SMARTWACH"
-  },
-  {
-    "id": 13,
-    "name": "CELULARES"
   },
   {
     "id": 14,

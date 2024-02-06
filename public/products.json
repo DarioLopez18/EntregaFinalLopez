@@ -13,6 +13,58 @@
     }
   },
   {
+    "id": 10,
+    "title": "Fuente de alimentación",
+    "img": "https://acortar.link/Ws0eR5",
+    "descripcion": "Fuente Corsair 850W",
+    "detail": "Fuente ASUS ROG STRIX 850W 80 Plus Gold Full Modular White 850G - ROG-STRIX-850G-WHITE",
+    "price": 212500,
+    "button": "Ver mas",
+    "stock": 10,
+    "categoria": {
+      "id": 3
+    }
+  },
+  {
+    "id": 11,
+    "title": "Fuente de alimentación",
+    "img": "https://acortar.link/G0e5Pt",
+    "descripcion": "Fuente Corsair 850W",
+    "detail": "Fuente ASUS ROG STRIX 1000W 80 Plus Gold Full Modular 1000G ROG-STRIX-1000G",
+    "price": 268900,
+    "button": "Ver mas",
+    "stock": 10,
+    "categoria": {
+      "id": 3
+    }
+  },
+  {
+    "id": 12,
+    "title": "Notebook Gamer",
+    "img": "https://acortar.link/rGUvKw",
+    "descripcion": "Notebook ASUS ROG STRIX",
+    "detail": "Notebook Gamer ASUS ROG STRIX G513RM 15.6 WQHD IPS Ryzen 7 6800H 16GB DDR5 512GB SSD NVMe RTX 3060 W11 Home 165Hz",
+    "price": 2499999,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 1
+    }
+  },
+  {
+    "id": 13,
+    "title": "Notebook Gamer",
+    "img": "https://acortar.link/l4bg7E",
+    "descripcion": "Notebook Gamer XPG XENIA",
+    "detail": "Notebook Gamer XPG XENIA FHD IPS 15.6 Core i7 12650H 16GB 512GB SSD NVMe RTX 4050 6GB W11 144Hz",
+    "price": 1865550,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 1
+    }
+  },
+  {
     "id": 2,
     "title": "Notebook Gamer",
     "img": "https://acortar.link/SLS5hS",
@@ -39,6 +91,32 @@
     }
   },
   {
+    "id": 14,
+    "title": "Procesador",
+    "img": "https://acortar.link/LT023a",
+    "descripcion": "Procesador AMD Ryzen 9 7950X3D",
+    "detail": "Procesador AMD Ryzen 9 7950X3D 5.7GHz AM5 - No incluye Cooler - AMD Radeon Graphics - última generación",
+    "price": 945000,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 7
+    }
+  },
+  {
+    "id": 15,
+    "title": "Procesador",
+    "img": "https://acortar.link/Ru4a9W",
+    "descripcion": "Procesador AMD Ryzen 9 7950X3D",
+    "detail": "Procesador AMD Ryzen 9 7900 5.4GHz Turbo AM5 + AMD Wraith Prism Incluye cooler AMD de máxima tecnología",
+    "price": 627000,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 7
+    }
+  },
+  {
     "id": 4,
     "title": "Gabinete",
     "img": "https://acortar.link/BmqxdQ",
@@ -52,12 +130,142 @@
     }
   },
   {
+    "id": 16,
+    "title": "Gabinete",
+    "img": "https://acortar.link/skHlPD",
+    "descripcion": "Gabinete Kolink Inspire K3 RGB  M-ATX",
+    "detail": "Gabinete Antec Torque ARGB Vidrio Templado con cristal templado de máxima calidad y tecnología",
+    "price": 559500,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 11
+    }
+  },
+  {
+    "id": 18,
+    "title": "Gabinete",
+    "img": "https://acortar.link/EbAshO",
+    "descripcion": "Gabinete Antec Torque ARGB Vidrio Templado",
+    "detail": "Gabinete Lian Li Odyssey X Silver con cristal templado de máxima calidad y tecnología",
+    "price": 559500,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 11
+    }
+  },
+  {
+    "id": 17,
+    "title": "Mouse",
+    "img": "https://acortar.link/wX3fvj",
+    "descripcion": "Mouse logitech",
+    "detail": "Mouse Logitech G502 Gaming Hero High Performance RGB, el mouse gamer hecho para vos",
+    "price": 79900,
+    "button": "Ver mas",
+    "stock": 10,
+    "categoria": {
+      "id": 4
+    }
+  },
+  {
+    "id": 21,
+    "title": "Mouse",
+    "img": "https://acortar.link/sB0wyS",
+    "descripcion": "Mouse Logitech",
+    "detail": "Mouse Logitech Aurora G705 Wireless White RGB, el mouse gamer hecho para vos",
+    "price": 98900,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 4
+    }
+  },
+  {
+    "id": 22,
+    "title": "Mouse",
+    "img": "https://acortar.link/JhJyON",
+    "descripcion": "Mouse Hyperx",
+    "detail": "Mouse Hyperx Pulsefire Haste 2 Black WirelessB, el mouse gamer hecho para vos",
+    "price": 68800,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 4
+    }
+  },
+  {
+    "id": 20,
+    "title": "GPU",
+    "img": "https://acortar.link/owSx5u",
+    "descripcion": "GPU ASUS 4080",
+    "detail": "Placa de Video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC - Consumo 350w",
+    "price": 2258610,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 6
+    }
+  },
+  {
+    "id": 24,
+    "title": "GPU",
+    "img": "https://acortar.link/p9TBC5",
+    "descripcion": "Placa de Video MSI GeForce",
+    "detail": "Placa de Video MSI GeForce RTX 3090 24GB GDDR6X VENTUS 3X OC la GPU ideal para correr todos tus juegos favoritos",
+    "price": 1174100,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 6
+    }
+  },
+  {
+    "id": 25,
+    "title": "GPU",
+    "img": "https://acortar.link/vcC3KG",
+    "descripcion": "Placa de Video Zotac",
+    "detail": "Placa de Video Zotac GeForce RTX 3090 24GB GDDR6X Trinity la GPU ideal para correr todos tus juegos favoritos",
+    "price": 1162650,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 6
+    }
+  },
+  {
     "id": 5,
     "title": "Silla Gamer",
     "img": "https://acortar.link/9sge4g",
     "descripcion": "Silla Gamer Vertagear Racing Series",
     "detail": "Silla Gamer Vertagear Racing Series SL1200 HygennX Negro y Blanco (Peso MAX. 120kg)",
     "price": 289999,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 10
+    }
+  },
+  {
+    "id": 26,
+    "title": "Silla Gamer Vertagear",
+    "img": "https://acortar.link/y8Wvsf",
+    "descripcion": "Silla Gamer Vertagear Racing Series",
+    "detail": "Silla Gamer Vertagear SL3800 HygennX Rojo Burgundy Ergonomic (Peso MAX. 100kg), la silla ideal para jugar a lo que mas te guste",
+    "price": 315999,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 10
+    }
+  },
+  {
+    "id": 27,
+    "title": "Silla Gamer Vertagear",
+    "img": "https://acortar.link/Mpw69Y",
+    "descripcion": "Silla Gamer Vertagear Racing Series",
+    "detail": "Silla Gamer Vertagear Alienware S3800 HygennX Negra y Blanca (Peso MAX. 100kg),la silla ideal para jugar a lo que mas te guste ",
+    "price": 466480,
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
@@ -75,6 +283,71 @@
     "stock": 8,
     "categoria": {
       "id": 2
+    }
+  },
+  {
+    "id": 28,
+    "title": "Mother",
+    "img": "https://acortar.link/joWy4w",
+    "descripcion": "Mother ASUS ROG",
+    "detail": "Mother ASUS ROG STRIX X670E-E GAMING WIFI AM5 DDR5, compatible con los nuevos procesadores de última generación. A divertirse sin parar ",
+    "price": 720000,
+    "button": "Ver mas",
+    "stock": 8,
+    "categoria": {
+      "id": 2
+    }
+  },
+  {
+    "id": 23,
+    "title": "Mother",
+    "img": "https://acortar.link/ZHRslU",
+    "descripcion": "Mother ASUS",
+    "detail": "Mother ASUS ROG CROSSHAIR X670E HERO última tecnología en mother, la nueva generación",
+    "price": 948000,
+    "button": "Ver mas",
+    "stock": 8,
+    "categoria": {
+      "id": 2
+    }
+  },
+  {
+    "id": 29,
+    "title": "Monitor",
+    "img": "https://acortar.link/t37oui",
+    "descripcion": "Monitor Gamer Samsung",
+    "detail": "Monitor Gamer Samsung 34 G8 Odyssey OLED 175Hz Curvo Wide WQHD 2K FreeSync. Para que no te pierdas ningún detalle de tu juego favorito",
+    "price": 2199500,
+    "button": "Ver mas",
+    "stock": 8,
+    "categoria": {
+      "id": 5
+    }
+  },
+  {
+    "id": 30,
+    "title": "Monitor",
+    "img": "https://acortar.link/MCT5L2",
+    "descripcion": "Monitor Gigabyte ",
+    "detail": "Monitor Gigabyte 34 UltraWide G34WQC Curvo 144Hz VA 2K QHD 21:9 GSync FreeSync Parlantes. Para que no te pierdas ningún detalle de tu juego favorito",
+    "price": 799850,
+    "button": "Ver mas",
+    "stock": 8,
+    "categoria": {
+      "id": 5
+    }
+  },
+  {
+    "id": 31,
+    "title": "Monitor",
+    "img": "https://acortar.link/VmANzs",
+    "descripcion": "Monitor LG",
+    "detail": "Monitor LG 34 UltraWide 34WP65C-B Curvo 160Hz VA 2K QHD 21:9 FreeSync Parlantes. Para que no te pierdas ningún detalle de tu juego favorito",
+    "price": 799950,
+    "button": "Ver mas",
+    "stock": 8,
+    "categoria": {
+      "id": 5
     }
   },
   {
