@@ -15,7 +15,7 @@ function App() {
           <Route path='/' element = {
               <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
           }/>
-          <Route path='/category/:categoryId' element = {
+          <Route path='/category/:categoryName' element = {
               <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
           }/>
           <Route path='/item/:id' element = {

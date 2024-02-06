@@ -6,16 +6,16 @@ import { useParams } from "react-router-dom";
 
 const ItemListContainer = ({greeting}) => {
   const [products,setProducts] = useState([]);
-  const {categoryId} = useParams();
+  const {categoryName} = useParams();
   useEffect(()=>{
       const fetchData = async() =>{
         try{
           const response = await fetch("/products.json")
           const data = await response.json()
-          if(categoryId == undefined){
+          if(categoryName == undefined){
             setProducts(data)
           }else{
-            const productsFiltered = data.filter(p=>p.categoria.id == categoryId)
+            const productsFiltered = data.filter(p=>p.categoria.name == categoryName)
             setProducts(productsFiltered)
           }
         }catch(e){
@@ -23,7 +23,7 @@ const ItemListContainer = ({greeting}) => {
         }
       }
       fetchData()
-    },[categoryId])
+    },[categoryName])
   return (
     <>
     <div className="base3">

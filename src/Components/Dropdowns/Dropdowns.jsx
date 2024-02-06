@@ -35,7 +35,7 @@ const Dropdowns = () => {
             </DropdownItem>
             {categories.length == 0 ? <Loader text="Cargando categorias..."/> : categories.map(categoria=>{
               return(
-                <Link className="dropdownLink" key={categoria.id} to = {`/category/${categoria.id}`}>
+                <Link className="dropdownLink" key={categoria.id} to = {`/category/${categoria.name}`}>
                   <DropdownItem className="item">
                   {categoria.name}
                   </DropdownItem>

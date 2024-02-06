@@ -9,7 +9,8 @@
     "button": "Ver mas",
     "stock": 10,
     "categoria": {
-      "id": 3
+      "id": 3,
+      "name": "FUENTES"
     }
   },
   {
@@ -22,7 +23,8 @@
     "button": "Ver mas",
     "stock": 10,
     "categoria": {
-      "id": 3
+      "id": 3,
+      "name": "FUENTES"
     }
   },
   {
@@ -35,7 +37,8 @@
     "button": "Ver mas",
     "stock": 10,
     "categoria": {
-      "id": 3
+      "id": 3,
+      "name": "FUENTES"
     }
   },
   {
@@ -48,7 +51,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 1
+      "id": 1,
+      "name": "NOTEBOOKS"
     }
   },
   {
@@ -61,7 +65,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 1
+      "id": 1,
+      "name": "NOTEBOOKS"
     }
   },
   {
@@ -74,7 +79,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 1
+      "id": 1,
+      "name": "NOTEBOOKS"
     }
   },
   {
@@ -87,7 +93,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 7
+      "id": 7,
+      "name": "PROCESADORES"
     }
   },
   {
@@ -100,7 +107,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 7
+      "id": 7,
+      "name": "PROCESADORES"
     }
   },
   {
@@ -113,7 +121,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 7
+      "id": 7,
+      "name": "PROCESADORES"
     }
   },
   {
@@ -126,7 +135,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 11
+      "id": 11,
+      "name": "GABINETES"
     }
   },
   {
@@ -139,7 +149,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 11
+      "id": 11,
+      "name": "GABINETES"
     }
   },
   {
@@ -152,7 +163,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 11
+      "id": 11,
+      "name": "GABINETES"
     }
   },
   {
@@ -165,7 +177,8 @@
     "button": "Ver mas",
     "stock": 10,
     "categoria": {
-      "id": 4
+      "id": 4,
+      "name": "MOUSE"
     }
   },
   {
@@ -178,7 +191,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 4
+      "id": 4,
+      "name": "MOUSE"
     }
   },
   {
@@ -191,7 +205,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 4
+      "id": 4,
+      "name": "MOUSE"
     }
   },
   {
@@ -204,7 +219,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 6
+      "id": 6,
+      "name": "GPU"
     }
   },
   {
@@ -217,7 +233,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 6
+      "id": 6,
+      "name": "GPU"
     }
   },
   {
@@ -230,7 +247,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 6
+      "id": 6,
+      "name": "GPU"
     }
   },
   {
@@ -243,7 +261,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 10
+      "id": 10,
+      "name": "SILLAS"
     }
   },
   {
@@ -256,7 +275,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 10
+      "id": 10,
+      "name": "SILLAS"
     }
   },
   {
@@ -269,7 +289,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 10
+      "id": 10,
+      "name": "SILLAS"
     }
   },
   {
@@ -282,7 +303,8 @@
     "button": "Ver mas",
     "stock": 8,
     "categoria": {
-      "id": 2
+      "id": 2,
+      "name": "MOTHERBOARDS"
     }
   },
   {
@@ -295,7 +317,8 @@
     "button": "Ver mas",
     "stock": 8,
     "categoria": {
-      "id": 2
+      "id": 2,
+      "name": "MOTHERBOARDS"
     }
   },
   {
@@ -308,7 +331,8 @@
     "button": "Ver mas",
     "stock": 8,
     "categoria": {
-      "id": 2
+      "id": 2,
+      "name": "MOTHERBOARDS"
     }
   },
   {
@@ -321,7 +345,8 @@
     "button": "Ver mas",
     "stock": 8,
     "categoria": {
-      "id": 5
+      "id": 5,
+      "name": "MONITORES"
     }
   },
   {
@@ -334,7 +359,8 @@
     "button": "Ver mas",
     "stock": 8,
     "categoria": {
-      "id": 5
+      "id": 5,
+      "name": "MONITORES"
     }
   },
   {
@@ -347,7 +373,8 @@
     "button": "Ver mas",
     "stock": 8,
     "categoria": {
-      "id": 5
+      "id": 5,
+      "name": "MONITORES"
     }
   },
   {
@@ -360,7 +387,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 14
+      "id": 14,
+      "name":"ALMACENAMIENTO"
     }
   },
   {
@@ -373,7 +401,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 14
+      "id": 14,
+      "name":"ALMACENAMIENTO"
     }
   },
   {
@@ -386,7 +415,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 14
+      "id": 14,
+      "name":"ALMACENAMIENTO"
     }
   },
   {
@@ -399,7 +429,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 9
+      "id": 9,
+      "name": "RAM"
     }
   },
   {
@@ -412,7 +443,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 9
+      "id": 9,
+      "name": "RAM"
     }
   },
   {
@@ -425,7 +457,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 9
+      "id": 9,
+      "name": "RAM"
     }
   },
   {
@@ -438,7 +471,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 15
+      "id": 15,
+      "name":"CABLES"
     }
   },
   {
@@ -451,7 +485,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 15
+      "id": 15,
+      "name":"CABLES"
     }
   },
   {
@@ -464,7 +499,8 @@
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
-      "id": 15
+      "id": 15,
+      "name":"CABLES"
     }
   }
 ]
