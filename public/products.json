@@ -364,6 +364,32 @@
     }
   },
   {
+    "id": 32,
+    "title": "SSD M.2",
+    "img": "https://acortar.link/8GHW4c",
+    "descripcion": "Disco Solido SSD M.2 Team 2TB",
+    "detail": "Disco Solido SSD Team 1TB T-Force Delta MAX RGB Black 550MB/s para que guardes tus recuerdos favoritos",
+    "price": 74810,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 14
+    }
+  },
+  {
+    "id": 33,
+    "title": "SSD M.2",
+    "img": "https://acortar.link/vrmG2r",
+    "descripcion": "Disco Solido SSD M.2 Team 2TB",
+    "detail": "Disco Sólido SSD Kingston 960GB A400 500MB/s para que guardes tus recuerdos favoritos",
+    "price": 71700,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 14
+    }
+  },
+  {
     "id": 8,
     "title": "Memoria Ram",
     "img": "https://acortar.link/HgeG0G",
@@ -377,12 +403,64 @@
     }
   },
   {
+    "id": 34,
+    "title": "Memoria Ram",
+    "img": "https://acortar.link/O3XrRh",
+    "descripcion": "Memoria Team",
+    "detail": "Memoria Team DDR4 32GB (2x16GB) 3200MHz T-Force Night Hawk RGB Black, para la mayor velocidad de tu PC.",
+    "price": 121999,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 9
+    }
+  },
+  {
+    "id": 35,
+    "title": "Memoria Ram",
+    "img": "https://acortar.link/BqbOzT",
+    "descripcion": "Memoria Team",
+    "detail": "Memoria Team DDR5 32GB (2x16GB) 6400MHz T-Force Delta RGB Black, para la mayor velocidad de tu PC.",
+    "price": 166700,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 9
+    }
+  },
+  {
     "id": 9,
     "title": "Cable HDMI",
     "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_19689_Cable_HDMI_Nisuta_20m_Dorado_V1.4_con_Filtros_2160P_4K_x_2K_4af7cdc5-grn.jpg",
     "descripcion": "Cable hdmi alta velocidad",
-    "detail": "Cable HDMI Nisuta 5m Dorado V2.0 con Filtros 2160P 4K x 2K",
+    "detail": "Cable HDMI Nisuta 5m Dorado V2.0 con Filtros 2160P 4K x 2K para conectar a tus dos pantallas!",
     "price": 35700,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 15
+    }
+  },
+  {
+    "id": 36,
+    "title": "Cable de poder",
+    "img": "https://acortar.link/iUGxEo",
+    "descripcion": "Cable hdmi alta velocidad",
+    "detail": "Cable de poder para - fuente de PC de 3 patas 0,75mm 1,5mts para darle a tu pc, la potencia que necesita",
+    "price": 2999,
+    "button": "Ver mas",
+    "stock": 5,
+    "categoria": {
+      "id": 15
+    }
+  },
+  {
+    "id": 37,
+    "title": "Cable hdmi",
+    "img": "https://acortar.link/A2MR9V",
+    "descripcion": "Cable hdmi alta velocidad",
+    "detail": "Cable HDMI de 3m V1.4 con filtros 1080P malla de tela para conectar tu pc a tu televisor favorito,y jugar en 4K",
+    "price": 10850,
     "button": "Ver mas",
     "stock": 5,
     "categoria": {
