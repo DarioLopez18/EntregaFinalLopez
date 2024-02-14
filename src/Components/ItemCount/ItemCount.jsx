@@ -2,8 +2,13 @@ import "./ItemCount.css"
 import PropTypes from "prop-types"
 import Button from "../Button/Button"
 import {useCount} from "../../Hooks/useCount/useCount"
+import { Link } from "react-router-dom"
 
-const ItemCount = ({stock}) => {
+const ItemCount = ({stock,onAddToCart}) => {
+  const handleAddToCart = () => {
+    onAddToCart(count); 
+    reset(); 
+  };
   const {count,increment,decrement,reset} = useCount(1,stock,1);
   return (
     <>
@@ -22,7 +27,9 @@ const ItemCount = ({stock}) => {
           </div>
       </div>
       <div className="divAddToCart"> 
-          <Button detail={"Agregar al carrito"} onClick={reset} className="buttonAddToCart"/>
+          <Link to={"/cart"} className="link">
+          <Button detail={"Agregar al carrito"} onClick={handleAddToCart} className="buttonAddToCart"/>
+          </Link>
       </div>
     </div>
 
@@ -32,6 +39,7 @@ const ItemCount = ({stock}) => {
 }
 
 ItemCount.propTypes = {
-  stock: PropTypes.number.isRequired
+  stock: PropTypes.number.isRequired,
+  onAddToCart: PropTypes.func.isRequired
 }
 export default ItemCount

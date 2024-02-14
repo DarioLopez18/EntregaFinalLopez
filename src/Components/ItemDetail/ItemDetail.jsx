@@ -2,8 +2,17 @@ import { Card } from "react-bootstrap";
 import PropTypes from "prop-types"
 import ItemCount from "../ItemCount/ItemCount"
 import "./ItemDetail.css"
+import { useState } from "react";
 
 const ItemDetail = ({product}) => {
+  const [cartItemCount, setCartItemCount] = useState({});
+
+  const handleAddToCart = count =>{
+    product.quantity = count
+    setCartItemCount(product)
+    console.log(cartItemCount)
+  }
+
   return (
     <Card className="itemDetail">
     <div className="d-md-flex">
@@ -18,7 +27,7 @@ const ItemDetail = ({product}) => {
           <Card.Title className="titulo">{product.title}</Card.Title>
           <Card.Text className="detalle">{product.detail}</Card.Text>
           <Card.Text className="precio">${product.price}</Card.Text>
-          <ItemCount stock={product.stock} />
+          <ItemCount stock={product.stock} onAddToCart={handleAddToCart}/>
         </Card.Body>
       </div>
     </div>

@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Error from './Components/Error/Error'
+import Cart from './Components/Cart/Cart'
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
               <ItemDetailContainer/>
           }/>
           <Route path='/cart' element = {
-              <></>
+              <Cart/>
           }/>
           <Route path='/checkout' element = {
               <></>
