@@ -2,9 +2,9 @@ import "./ItemCount.css"
 import PropTypes from "prop-types"
 import Button from "../Button/Button"
 import {useCount} from "../../Hooks/useCount/useCount"
-import { Link } from "react-router-dom"
 
 const ItemCount = ({stock,onAddToCart}) => {
+   
   const handleAddToCart = () => {
     onAddToCart(count); 
     reset(); 
@@ -27,9 +27,7 @@ const ItemCount = ({stock,onAddToCart}) => {
           </div>
       </div>
       <div className="divAddToCart"> 
-          <Link to={"/cart"} className="link">
-          <Button detail={"Agregar al carrito"} onClick={handleAddToCart} className="buttonAddToCart"/>
-          </Link>
+       <Button detail={"Agregar al carrito"} onClick={handleAddToCart} className="buttonAddToCart"/>
       </div>
     </div>
 

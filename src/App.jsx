@@ -6,35 +6,37 @@ import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailCont
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Error from './Components/Error/Error'
 import Cart from './Components/Cart/Cart'
+import CartProvider from './context/CartContext'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        <Navbar/>
-        <Routes>
-          <Route path='/' element = {
-              <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
-          }/>
-          <Route path='/category/:categoryName' element = {
-              <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
-          }/>
-          <Route path='/item/:id' element = {
-              <ItemDetailContainer/>
-          }/>
-          <Route path='/cart' element = {
-              <Cart/>
-          }/>
-          <Route path='/checkout' element = {
-              <></>
-          }/>
-          <Route path='*' element = {
-            <Error/>
-          }/>
-        </Routes>
-        <Footer/>
-
+          <CartProvider>
+            <Navbar/>
+            <Routes>
+              <Route path='/' element = {
+                  <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
+              }/>
+              <Route path='/category/:categoryName' element = {
+                  <ItemListContainer greeting='¡Bienvenidos a mi Ecommerce hecha con React JS!'/>
+              }/>
+              <Route path='/item/:id' element = {
+                  <ItemDetailContainer/>
+              }/>
+              <Route path='/cart' element = {
+                  <Cart/>
+              }/>
+              <Route path='/checkout' element = {
+                  <></>
+              }/>
+              <Route path='*' element = {
+                <Error/>
+              }/>
+            </Routes>
+            <Footer/>
+          </CartProvider>
       </BrowserRouter>
     </>
   )

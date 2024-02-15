@@ -34,3 +34,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.linkin{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+}
