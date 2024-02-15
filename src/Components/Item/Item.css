@@ -26,3 +26,13 @@
   display: flex;
   justify-content: center;
 }
+
+.cardItem{
+  width: 85%;
+}
+
+@media (min-width: 760px) {
+  .cardItem{
+    width: 18rem;
+  }
+}

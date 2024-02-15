@@ -41,3 +41,9 @@
 .viewProduct:hover{
     background-color: cornflowerblue;
 }
+
+@media (min-width: 760px) {
+    .cardCart{
+        width: 18rem;
+    }
+}

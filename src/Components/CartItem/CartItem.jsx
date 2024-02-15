@@ -12,7 +12,7 @@ const CartItem = ({product,quantity}) => {
     deleteItem(product.id)
   ]
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card className="cardCart">
     <Card.Img variant="top" src={product.img} alt={product.title} />
     <Card.Body className='bodyCard'>
       <Card.Title className='tituloCard'>{product.title}</Card.Title>
