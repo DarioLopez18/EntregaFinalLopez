@@ -16,6 +16,11 @@ const Cart = () => {
         </Link>
       </div> : 
       <>
+        <div className="containerButtonClear">
+          <button className="buttonClear" onClick={clearCart}>Vaciar el carrito</button>
+          <h1 className="totalCart">Total del carrito: ${total}</h1>
+          <button className="buttonClear">Finalizar compra</button>
+        </div>
         <div className="cartContainer">
           {cart.map(p=>
             (
@@ -23,11 +28,6 @@ const Cart = () => {
             )
           )
           }
-        </div>
-        <div className="containerButtonClear">
-          <button className="buttonClear" onClick={clearCart}>Vaciar el carrito</button>
-          <h1 className="totalCart">Total del carrito: ${total}</h1>
-          <button className="buttonClear">Finalizar compra</button>
         </div>
       </>
       

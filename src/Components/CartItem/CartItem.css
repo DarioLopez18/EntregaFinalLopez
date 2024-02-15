@@ -44,6 +44,27 @@
 
 @media (min-width: 760px) {
     .cardCart{
-        width: 20rem;
+        width: 25rem;
     }
+}
+
+.itemDetailCard{
+    width: 70%;
+    text-align: center;
+}
+
+.itemProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardCartShop{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.responsiveCard{
+    width: 90%;
 }

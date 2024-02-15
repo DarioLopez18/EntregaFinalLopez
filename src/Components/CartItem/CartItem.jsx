@@ -12,17 +12,31 @@ const CartItem = ({product,quantity}) => {
     deleteItem(product.id)
   ]
   return (
-    <Card className="cardCart">
-    <Card.Img variant="top" src={product.img} alt={product.title} />
-    <Card.Body className='bodyCard'>
-      <Card.Title className='tituloCard'>{product.title}</Card.Title>
-      <Card.Text className='priceCart'>${product.price}</Card.Text>
-      <Card.Text className='quantityCart'>Unidades: {quantity}</Card.Text>
-      <Card.Text className='subtotalCart'>Subtotal: ${product.price * quantity}</Card.Text>
-      <Button detail="Quitar item" onClick={deleteItemCart}/>
-      <Link to={`/item/${product.id}`} className="viewProduct">Ver producto</Link>
-    </Card.Body>
-  </Card>
+    <>
+      <Card className="responsiveCard">
+      <div className="d-md-flex">
+        {/* Columna para la imagen */}
+        <div className="flex-shrink-0">
+          <Card.Img variant="top" src={product.img} alt={product.title} />
+        </div>
+
+        {/* Columna para el texto y botones */}
+        <div className="flex-grow-1">
+          <Card.Body className="descripcion" style={{textAlign:"center"}}>
+            <Card.Title className="titulo">{product.title}</Card.Title>
+            <Card.Text className="detalle">{product.detail}</Card.Text>
+            <Card.Text className="precio">${product.price}</Card.Text>
+            <Card.Text className='quantityCart'>Unidades: {quantity}</Card.Text>
+            <Card.Text className='subtotalCart'>Subtotal: ${product.price * quantity}</Card.Text>
+            <div className="itemProduct">
+                <Button detail="Quitar item" onClick={deleteItemCart}/>
+                <Link to={`/item/${product.id}`} className="viewProduct">Ver producto</Link>
+            </div>
+          </Card.Body>
+        </div>
+      </div>
+    </Card>
+    </>
   )
 }
 
