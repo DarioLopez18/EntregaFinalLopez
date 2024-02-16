@@ -4,8 +4,11 @@ import Enlace from "../Enlace/Enlace"
 import Search from "../Search/Search"
 import CartWidget from "../CartWidget/CartWidget"
 import Dropdowns from "../Dropdowns/Dropdowns"
+import { CartContext } from "../../context/CartContext"
+import { useContext } from "react"
 
 const Navbar = () => {
+  const {totalQuantity} = useContext(CartContext)
   return (
     <>
     <section className="background">
@@ -24,9 +27,13 @@ const Navbar = () => {
             <div className="drop">
                 <Enlace href={"#"} contenido={"Ingresa"}/>
             </div>
-            <div className="drop">
-                <CartWidget className="cartWidget"/>
-            </div>
+            {totalQuantity != 0  ?
+                <div className="drop">
+                    <CartWidget className="cartWidget"/>
+                </div>
+                :
+                <></>
+            }
         </div>
     </div>
     </section>
