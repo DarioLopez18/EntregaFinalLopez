@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "echo 'No start command needed for Vite/React app'"
+    "start": "serve dist -s -n -l -p $PORT"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
