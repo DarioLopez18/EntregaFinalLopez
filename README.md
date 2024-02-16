@@ -25,6 +25,10 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
      </p>
 </div>
 
+# Deploy del proyecto
+
+* https://frontendreactjscoder.netlify.app/
+
 # Acerca de como ejecutar la aplicación:
 
 * Clonar el repositorio haciendo uso del comando: git clone https://github.com/DarioLopez18/PreEntrega1Lopez.git
