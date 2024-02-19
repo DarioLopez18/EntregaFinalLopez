@@ -1,70 +1,87 @@
-.carritoVacio{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+.carritoVacio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
-.viewProducts{
-    background-color: #d12b3e;
-    padding: 0.5rem;
-    border-radius: 3px;
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.viewProducts {
+  background-color: #d12b3e;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
-.cartContainer{
-    display: flex;
-    width: 70%;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    gap:1rem;
-    justify-content: center;
-    align-items: center;
+.cartContainer {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {
-    .cartContainer{
-        width: 100%;
-    }
+  .cartContainer {
+    width: 100%;
+  }
 }
 
-.buttonClear{
-    background-color: #d12b3e;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    padding: 0.5rem;
-    text-shadow: 1px 1px 2px black;
-    font-weight: bold;
+.buttonClear {
+  background-color: #d12b3e;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 0.5rem;
+  text-shadow: 1px 1px 2px black;
+  font-weight: bold;
 }
 
-.containerButtonClear{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
+.containerButtonClear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 600px) {
-    .containerButtonClear{
-        flex-direction: column;
-        align-items: center;
-    }
+  .containerButtonClear {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-.totalCart{
-    font-size: 2rem;
-    color: white;
-    text-shadow: 1px 1px 2px black;
+.totalCart {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
+@media (max-width: 600px) {
+  .totalCart {
+    font-size: 1.7rem;
+  }
+}
 
-.buttonClear:hover{
-    background-color: cornflowerblue;
+.buttonClear:hover {
+  background-color: cornflowerblue;
+}
+
+.contenedor_general {
+  margin-top: 5rem;
+}
+
+@media (max-width: 1200px) {
+  .contenedor_general {
+    margin-top: 15rem;
+  }
 }

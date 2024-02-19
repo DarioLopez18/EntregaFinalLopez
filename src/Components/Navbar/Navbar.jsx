@@ -13,31 +13,33 @@ const Navbar = () => {
   const showHomeLink = location.pathname !== '/';
   return (
     <>
-    <section className="background">
-    <div className="background barra">
-        <div className="navbar">
-            <Icon/>
+    <div className="position">
+        <section className="background">
+        <div className="background barra">
+            <div className="navbar">
+                <Icon/>
+            </div>
+            <div className="base2">
+                <Search placeholder="Buscar producto"/>
+            </div>
+            <div className="base">
+                <Dropdowns/>
+                {showHomeLink && (
+                    <NavLink to={"/"} className="enlaceNavbar">
+                        Inicio
+                    </NavLink>
+                )}
+                {totalQuantity != 0  ?
+                    <div className="drop">
+                        <CartWidget className="cartWidget"/>
+                    </div>
+                    :
+                    <></>
+                }
+            </div>
         </div>
-        <div className="base2">
-            <Search placeholder="Buscar producto"/>
+        </section>
         </div>
-        <div className="base">
-            <Dropdowns/>
-            {showHomeLink && (
-                <NavLink to={"/"} className="enlaceNavbar">
-                    Inicio
-                </NavLink>
-            )}
-            {totalQuantity != 0  ?
-                <div className="drop">
-                    <CartWidget className="cartWidget"/>
-                </div>
-                :
-                <></>
-            }
-        </div>
-    </div>
-    </section>
     </>
   )
 }

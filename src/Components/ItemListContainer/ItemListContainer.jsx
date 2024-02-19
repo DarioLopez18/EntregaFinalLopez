@@ -26,7 +26,7 @@ const ItemListContainer = ({greeting}) => {
     },[categoryName])
   return (
     <>
-    <div className="base3">
+    <div className="base3 marginbottom">
         <h1 className="text">{greeting}</h1>
         <ItemList products = {products}/>
     </div>

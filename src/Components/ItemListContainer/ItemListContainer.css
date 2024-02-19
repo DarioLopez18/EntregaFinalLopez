@@ -35,3 +35,13 @@
     transform: rotate(360deg);
   }
 }
+
+.marginbottom{
+  margin-top: 6rem;
+}
+
+@media (max-width: 1200px) {
+    .marginbottom{
+      margin-top: 15rem;
+    }
+}

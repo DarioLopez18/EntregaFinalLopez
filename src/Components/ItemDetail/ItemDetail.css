@@ -46,3 +46,13 @@
 .linksCart{
   gap: 2rem;
 }
+
+.itemDetail{
+  margin-top: 4rem;
+}
+
+@media (max-width: 1200px) {
+    .itemDetail{
+      margin-top: 13rem;
+    }
+}
