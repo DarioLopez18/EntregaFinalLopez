@@ -1,14 +1,16 @@
 import Icon from "../Icon/Icon"
 import "./navbar.css"
-import Enlace from "../Enlace/Enlace"
 import Search from "../Search/Search"
 import CartWidget from "../CartWidget/CartWidget"
 import Dropdowns from "../Dropdowns/Dropdowns"
 import { CartContext } from "../../context/CartContext"
 import { useContext } from "react"
+import { NavLink, useLocation } from "react-router-dom"
 
 const Navbar = () => {
   const {totalQuantity} = useContext(CartContext)
+  const location = useLocation();
+  const showHomeLink = location.pathname !== '/';
   return (
     <>
     <section className="background">
@@ -21,12 +23,11 @@ const Navbar = () => {
         </div>
         <div className="base">
             <Dropdowns/>
-            <div className="drop">
-                <Enlace href={"#"} contenido={"Mis compras"}/>
-            </div>
-            <div className="drop">
-                <Enlace href={"#"} contenido={"Ingresa"}/>
-            </div>
+            {showHomeLink && (
+                <NavLink to={"/"} className="enlaceNavbar">
+                    Inicio
+                </NavLink>
+            )}
             {totalQuantity != 0  ?
                 <div className="drop">
                     <CartWidget className="cartWidget"/>

@@ -1,20 +1,18 @@
 p {
   color: white;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.iconCart {
-  height: 23px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
 }
 
 .EnlaceCardWidget{
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
-  margin: 0;
+  margin-left: 8px;
   padding: 0;
   transition: transform 0.3s ease;
+  width: 100%;
 }
 
 .pCard{

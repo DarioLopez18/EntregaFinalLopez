@@ -4,7 +4,7 @@ import "./CartItem.css"
 import { CartContext } from "../../context/CartContext"
 import { useContext } from "react"
 import Button from "../Button/Button"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const CartItem = ({product,quantity}) => {
   const {deleteItem} = useContext(CartContext)
@@ -30,7 +30,7 @@ const CartItem = ({product,quantity}) => {
             <Card.Text className='subtotalCart'>Subtotal: ${product.price * quantity}</Card.Text>
             <div className="itemProduct">
                 <Button detail="Quitar item" onClick={deleteItemCart}/>
-                <Link to={`/item/${product.id}`} className="viewProduct">Ver producto</Link>
+                <NavLink to={`/item/${product.id}`} className="viewProduct">Ver producto</NavLink>
             </div>
           </Card.Body>
         </div>

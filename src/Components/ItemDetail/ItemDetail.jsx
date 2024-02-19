@@ -4,7 +4,7 @@ import ItemCount from "../ItemCount/ItemCount"
 import "./ItemDetail.css"
 import { useState , useContext } from "react";
 import Button from "../Button/Button";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 import withReactContent from 'sweetalert2-react-content'
 import Swal from 'sweetalert2';
@@ -39,8 +39,8 @@ const ItemDetail = ({product}) => {
           <Card.Text className="detalle">{product.detail}</Card.Text>
           <Card.Text className="precio">${product.price}</Card.Text>
           {cartState ? <div className="linksCart">
-            <Link to={"/cart"} className="linkin"><Button className="buttonAddToCart" detail={"Ir al carrito"} onClick={()=>{}}/></Link>
-            <Link to={"/"} className="linkin"><Button className="buttonAddToCart" detail={"Seguir comprando"} onClick={()=>{}}/></Link>
+            <NavLink to={"/cart"} className="linkin"><Button className="buttonAddToCart" detail={"Ir al carrito"} onClick={()=>{}}/></NavLink>
+            <NavLink to={"/"} className="linkin"><Button className="buttonAddToCart" detail={"Seguir comprando"} onClick={()=>{}}/></NavLink>
           </div>  : <ItemCount stock={product.stock} onAddToCart={handleAddToCart}/>}
         </Card.Body>
       </div>

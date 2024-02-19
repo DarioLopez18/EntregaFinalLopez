@@ -3,7 +3,7 @@ import { Dropdown, DropdownItem,DropdownMenu, DropdownToggle } from "reactstrap"
 import { useState, useEffect } from "react";
 import "./Dropdowns.css"
 import Loader from "../Loader/Loader";
-import { Link } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const Dropdowns = () => {
   const [dropdown,setDropdown] = useState(false);
@@ -35,11 +35,11 @@ const Dropdowns = () => {
             </DropdownItem>
             {categories.length == 0 ? <Loader text="Cargando categorias..."/> : categories.map(categoria=>{
               return(
-                <Link className="dropdownLink" key={categoria.id} to = {`/category/${categoria.name}`}>
+                <NavLink className="dropdownLink" key={categoria.id} to = {`/category/${categoria.name}`}>
                   <DropdownItem className="item">
                   {categoria.name}
                   </DropdownItem>
-                </Link>
+                </NavLink>
               )
             })}
 
