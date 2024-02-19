@@ -3,3 +3,17 @@
   max-height: 500px;
   object-fit: cover;
 }
+
+.pagError{
+  margin-top: 6rem;
+}
+
+.marginError{
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .pagError{
+      margin-top: 15rem;
+    }
+}
