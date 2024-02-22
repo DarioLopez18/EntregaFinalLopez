@@ -3,26 +3,30 @@ import "./ItemListContainer.css"
 import ItemList from "../ItemList/ItemList"
 import { useState,useEffect} from "react";
 import { useParams } from "react-router-dom";
+import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
+
 
 const ItemListContainer = ({greeting}) => {
   const [products,setProducts] = useState([]);
   const {categoryName} = useParams();
   useEffect(()=>{
-      const fetchData = async() =>{
-        try{
-          const response = await fetch("/products.json")
-          const data = await response.json()
-          if(categoryName == undefined){
-            setProducts(data)
-          }else{
-            const productsFiltered = data.filter(p=>p.categoria.name == categoryName)
-            setProducts(productsFiltered)
-          }
-        }catch(e){
-          console.log(e)
+    const db = getFirestore()
+    const productsRef = collection(db,"items")
+    if(!categoryName) {
+      getDocs(productsRef).then(
+        snapshot => {
+          const productsData = snapshot.docs.map(doc => ({id:doc.id,...doc.data()}))
+          setProducts(productsData)
         }
-      }
-      fetchData()
+      ) 
+    }else{
+      const productsFilteredRef = query(collection(db,"items"),where("categoria","==",categoryName))
+      getDocs(productsFilteredRef).then(snapshot=>{
+        const productsFiltered = snapshot.docs.map(doc => ({id: doc.id,...doc.data()}))
+        setProducts(productsFiltered)
+      })
+    }
+
     },[categoryName])
   return (
     <>

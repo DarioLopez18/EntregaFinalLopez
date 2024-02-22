@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "title": "Fuente de alimentación",
     "img": "/fuente_corsair.jpg",
     "descripcion": "Fuente Corsair 1200W",
@@ -8,13 +7,9 @@
     "price": 279900,
     "button": "Ver mas",
     "stock": 10,
-    "categoria": {
-      "id": 3,
-      "name": "FUENTES"
-    }
+    "categoria": "FUENTES"
   },
   {
-    "id": 10,
     "title": "Fuente de alimentación",
     "img": "/fuente_white.jpg",
     "descripcion": "Fuente Corsair 850W",
@@ -22,13 +17,9 @@
     "price": 212500,
     "button": "Ver mas",
     "stock": 10,
-    "categoria": {
-      "id": 3,
-      "name": "FUENTES"
-    }
+    "categoria": "FUENTES"
   },
   {
-    "id": 11,
     "title": "Fuente de alimentación",
     "img": "/fuente_modular.jpg",
     "descripcion": "Fuente Corsair 850W",
@@ -36,13 +27,9 @@
     "price": 268900,
     "button": "Ver mas",
     "stock": 10,
-    "categoria": {
-      "id": 3,
-      "name": "FUENTES"
-    }
+    "categoria": "FUENTES"
   },
   {
-    "id": 12,
     "title": "Notebook Gamer",
     "img": "/notebook_gamer_asus_rog.jpg",
     "descripcion": "Notebook ASUS ROG STRIX",
@@ -50,13 +37,9 @@
     "price": 2499999,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 1,
-      "name": "NOTEBOOKS"
-    }
+    "categoria": "NOTEBOOKS"
   },
   {
-    "id": 13,
     "title": "Notebook Gamer",
     "img": "/xgp.jpg",
     "descripcion": "Notebook Gamer XPG XENIA",
@@ -64,13 +47,9 @@
     "price": 1865550,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 1,
-      "name": "NOTEBOOKS"
-    }
+    "categoria": "NOTEBOOKS"
   },
   {
-    "id": 2,
     "title": "Notebook Gamer",
     "img": "/acer.jpg",
     "descripcion": "Notebook Gamer Acer Nitro 5 15.6",
@@ -78,13 +57,9 @@
     "price": 932290,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 1,
-      "name": "NOTEBOOKS"
-    }
+    "categoria": "NOTEBOOKS"
   },
   {
-    "id": 3,
     "title": "Procesador",
     "img": "/ryzen9.jpg",
     "descripcion": "Procesador AMD Ryzen 9 5950X 4.6GHz",
@@ -92,13 +67,9 @@
     "price": 920000,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 7,
-      "name": "PROCESADORES"
-    }
+    "categoria": "PROCESADORES"
   },
   {
-    "id": 14,
     "title": "Procesador",
     "img": "/r9.jpg",
     "descripcion": "Procesador AMD Ryzen 9 7950X3D",
@@ -106,13 +77,9 @@
     "price": 945000,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 7,
-      "name": "PROCESADORES"
-    }
+    "categoria": "PROCESADORES"
   },
   {
-    "id": 15,
     "title": "Procesador",
     "img": "/r9_2.jpg",
     "descripcion": "Procesador AMD Ryzen 9 7950X3D",
@@ -120,13 +87,9 @@
     "price": 627000,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 7,
-      "name": "PROCESADORES"
-    }
+    "categoria": "PROCESADORES"
   },
   {
-    "id": 4,
     "title": "Gabinete",
     "img": "/g_kotlik.jpg",
     "descripcion": "Gabinete Kolink Inspire K3 RGB  M-ATX",
@@ -134,13 +97,9 @@
     "price": 51900,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 11,
-      "name": "GABINETES"
-    }
+    "categoria": "GABINETES"
   },
   {
-    "id": 16,
     "title": "Gabinete",
     "img": "/gabinete.jpg",
     "descripcion": "Gabinete Antec Torque",
@@ -148,13 +107,9 @@
     "price": 559500,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 11,
-      "name": "GABINETES"
-    }
+    "categoria": "GABINETES"
   },
   {
-    "id": 18,
     "title": "Gabinete",
     "img": "/gabinete_lian_li.jpg",
     "descripcion": "Gabinete Lian Li",
@@ -162,13 +117,9 @@
     "price": 559500,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 11,
-      "name": "GABINETES"
-    }
+    "categoria": "GABINETES"
   },
   {
-    "id": 17,
     "title": "Mouse",
     "img": "/g502.jpg",
     "descripcion": "Mouse logitech",
@@ -176,13 +127,9 @@
     "price": 79900,
     "button": "Ver mas",
     "stock": 10,
-    "categoria": {
-      "id": 4,
-      "name": "MOUSE"
-    }
+    "categoria": "MOUSE"
   },
   {
-    "id": 21,
     "title": "Mouse",
     "img": "/mouse.jpg",
     "descripcion": "Mouse Logitech",
@@ -190,13 +137,9 @@
     "price": 98900,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 4,
-      "name": "MOUSE"
-    }
+    "categoria": "MOUSE"
   },
   {
-    "id": 22,
     "title": "Mouse",
     "img": "/mouse_3.jpg",
     "descripcion": "Mouse Hyperx",
@@ -204,13 +147,9 @@
     "price": 68800,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 4,
-      "name": "MOUSE"
-    }
+    "categoria": "MOUSE"
   },
   {
-    "id": 20,
     "title": "GPU",
     "img": "/4080.jpg",
     "descripcion": "GPU ASUS 4080",
@@ -218,13 +157,9 @@
     "price": 2258610,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 6,
-      "name": "GPU"
-    }
+    "categoria": "GPU"
   },
   {
-    "id": 24,
     "title": "GPU",
     "img": "/3090.jpg",
     "descripcion": "Placa de Video MSI GeForce",
@@ -232,13 +167,9 @@
     "price": 1174100,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 6,
-      "name": "GPU"
-    }
+    "categoria": "GPU"
   },
   {
-    "id": 25,
     "title": "GPU",
     "img": "/zotac.jpg",
     "descripcion": "Placa de Video Zotac",
@@ -246,13 +177,9 @@
     "price": 1162650,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 6,
-      "name": "GPU"
-    }
+    "categoria": "GPU"
   },
   {
-    "id": 5,
     "title": "Silla Gamer",
     "img": "/sl1200.jpg",
     "descripcion": "Silla Gamer Vertagear Racing Series",
@@ -260,13 +187,9 @@
     "price": 289999,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 10,
-      "name": "SILLAS"
-    }
+    "categoria": "SILLAS"
   },
   {
-    "id": 26,
     "title": "Silla Gamer Vertagear",
     "img": "/sl3800.jpg",
     "descripcion": "Silla Gamer Vertagear Racing Series",
@@ -274,13 +197,9 @@
     "price": 315999,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 10,
-      "name": "SILLAS"
-    }
+    "categoria": "SILLAS"
   },
   {
-    "id": 27,
     "title": "Silla Gamer Vertagear",
     "img": "/sl2800.jpg",
     "descripcion": "Silla Gamer Vertagear Racing Series",
@@ -288,13 +207,9 @@
     "price": 466480,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 10,
-      "name": "SILLAS"
-    }
+    "categoria": "SILLAS"
   },
   {
-    "id": 6,
     "title": "Mother",
     "img": "/motherAR.jpg",
     "descripcion": "Mother Asrock X670E Taichi Carrara",
@@ -302,13 +217,9 @@
     "price": 869300,
     "button": "Ver mas",
     "stock": 8,
-    "categoria": {
-      "id": 2,
-      "name": "MOTHERBOARDS"
-    }
+    "categoria": "MOTHERBOARDS"
   },
   {
-    "id": 28,
     "title": "Mother",
     "img": "/mother.jpg",
     "descripcion": "Mother ASUS ROG",
@@ -316,13 +227,9 @@
     "price": 720000,
     "button": "Ver mas",
     "stock": 8,
-    "categoria": {
-      "id": 2,
-      "name": "MOTHERBOARDS"
-    }
+    "categoria": "MOTHERBOARDS"
   },
   {
-    "id": 23,
     "title": "Mother",
     "img": "/mother2.jpg",
     "descripcion": "Mother ASUS",
@@ -330,13 +237,9 @@
     "price": 948000,
     "button": "Ver mas",
     "stock": 8,
-    "categoria": {
-      "id": 2,
-      "name": "MOTHERBOARDS"
-    }
+    "categoria": "MOTHERBOARDS"
   },
   {
-    "id": 29,
     "title": "Monitor",
     "img": "/ms.jpg",
     "descripcion": "Monitor Gamer Samsung",
@@ -344,13 +247,9 @@
     "price": 2199500,
     "button": "Ver mas",
     "stock": 8,
-    "categoria": {
-      "id": 5,
-      "name": "MONITORES"
-    }
+    "categoria": "MONITORES"
   },
   {
-    "id": 30,
     "title": "Monitor",
     "img": "/mg.jpg",
     "descripcion": "Monitor Gigabyte ",
@@ -358,13 +257,9 @@
     "price": 799850,
     "button": "Ver mas",
     "stock": 8,
-    "categoria": {
-      "id": 5,
-      "name": "MONITORES"
-    }
+    "categoria": "MONITORES"
   },
   {
-    "id": 31,
     "title": "Monitor",
     "img": "/mlg.jpg",
     "descripcion": "Monitor LG",
@@ -372,13 +267,9 @@
     "price": 799950,
     "button": "Ver mas",
     "stock": 8,
-    "categoria": {
-      "id": 5,
-      "name": "MONITORES"
-    }
+    "categoria": "MONITORES"
   },
   {
-    "id": 7,
     "title": "SSD M.2",
     "img": "/m.2.jpg",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
@@ -386,13 +277,9 @@
     "price": 166900,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 14,
-      "name":"ALMACENAMIENTO"
-    }
+    "categoria": "ALMACENAMIENTO"
   },
   {
-    "id": 32,
     "title": "SSD M.2",
     "img": "/ssd_1.jpg",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
@@ -400,13 +287,9 @@
     "price": 74810,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 14,
-      "name":"ALMACENAMIENTO"
-    }
+    "categoria": "ALMACENAMIENTO"
   },
   {
-    "id": 33,
     "title": "SSD M.2",
     "img": "/mp2K.jpg",
     "descripcion": "Disco Solido SSD M.2 Team 2TB",
@@ -414,13 +297,9 @@
     "price": 71700,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 14,
-      "name":"ALMACENAMIENTO"
-    }
+    "categoria": "ALMACENAMIENTO"
   },
   {
-    "id": 8,
     "title": "Memoria Ram",
     "img": "/memoriaGEIL.jpg",
     "descripcion": "Memoria GeiL DDR4 8GB 3600MHz",
@@ -428,13 +307,9 @@
     "price": 43850,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 9,
-      "name": "RAM"
-    }
+    "categoria": "RAM"
   },
   {
-    "id": 34,
     "title": "Memoria Ram",
     "img": "/memoriaRamRGB.jpg",
     "descripcion": "Memoria Team",
@@ -442,13 +317,9 @@
     "price": 121999,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 9,
-      "name": "RAM"
-    }
+    "categoria": "RAM"
   },
   {
-    "id": 35,
     "title": "Memoria Ram",
     "img": "/memoriaRam3.jpg",
     "descripcion": "Memoria Team",
@@ -456,13 +327,9 @@
     "price": 166700,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 9,
-      "name": "RAM"
-    }
+    "categoria": "RAM"
   },
   {
-    "id": 9,
     "title": "Cable HDMI",
     "img": "/hdmi_negro.jpg",
     "descripcion": "Cable hdmi alta velocidad",
@@ -470,13 +337,9 @@
     "price": 35700,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 15,
-      "name":"CABLES"
-    }
+    "categoria": "CABLES"
   },
   {
-    "id": 36,
     "title": "Cable de poder",
     "img": "/cp.jpg",
     "descripcion": "Cable hdmi alta velocidad",
@@ -484,13 +347,9 @@
     "price": 2999,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 15,
-      "name":"CABLES"
-    }
+    "categoria": "CABLES"
   },
   {
-    "id": 37,
     "title": "Cable hdmi",
     "img": "/hdmi3mts.jpg",
     "descripcion": "Cable hdmi alta velocidad",
@@ -498,9 +357,6 @@
     "price": 10850,
     "button": "Ver mas",
     "stock": 5,
-    "categoria": {
-      "id": 15,
-      "name":"CABLES"
-    }
+    "categoria": "CABLES"
   }
 ]

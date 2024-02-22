@@ -29,7 +29,7 @@ Item.propTypes = {
     button: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired,
     stock: PropTypes.number.isRequired,
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
 }
 
 export default Item

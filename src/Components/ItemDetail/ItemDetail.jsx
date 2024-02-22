@@ -19,11 +19,10 @@ const ItemDetail = ({product}) => {
     Modal.fire({
       title: "Producto agregado",
       text: "Puedes ver tu carrito o seguir comprando.",
-      icon: "sucess",
+      icon: "success",
       confirmButtonText: 'Aceptar'
     })
   }
-
   return (
     <Card className="itemDetail">
     <div className="d-md-flex">

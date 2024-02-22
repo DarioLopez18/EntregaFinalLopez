@@ -3,21 +3,19 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import "./ItemDetailContainer.css"
 import Loader from "../Loader/Loader";
 import { useParams } from "react-router-dom";
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
+
 const ItemDetailContainer = () => {
     const [product,setProduct] = useState(null);
     const {id} = useParams();
     useEffect(()=>{
-        const fetchData = async() =>{
-          try{
-            const response = await fetch("/products.json")
-            const data = await response.json()
-            const product = data.find(p=>p.id == id)
-            setProduct(product)
-          }catch(e){
-            console.log(e)
-          }
+      const db = getFirestore()
+      const productRef = doc(db,"items",id)
+      getDoc(productRef).then(snapshot=>{
+        if(snapshot.exists()){
+          setProduct({id:snapshot.id,...snapshot.data()})
         }
-        fetchData()
+      })
       },[id])
   return (
     <div className="itemDetailContainer">

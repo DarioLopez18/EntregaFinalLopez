@@ -9,7 +9,6 @@ import Cart from './Components/Cart/Cart'
 import CartProvider from './context/CartContext'
 
 function App() {
-
   return (
     <>
       <BrowserRouter>

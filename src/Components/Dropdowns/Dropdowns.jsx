@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import "./Dropdowns.css"
 import Loader from "../Loader/Loader";
 import {NavLink} from "react-router-dom";
+import {collection,getDocs,getFirestore} from "firebase/firestore"
 
 const Dropdowns = () => {
   const [dropdown,setDropdown] = useState(false);
@@ -12,16 +13,12 @@ const Dropdowns = () => {
     setDropdown(!dropdown)
   }
   useEffect(()=>{
-    const fetchData = async() =>{
-      try{
-        const response = await fetch("/categories.json")
-        const data = await response.json()
-        setCategories(data)
-      }catch(e){
-        console.log(e)
-      }
-    }
-    fetchData()
+    const db = getFirestore();
+    const categoriesRef = collection(db,"categories")
+    getDocs(categoriesRef).then((snapshot)=>{
+      const categoriesData = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      setCategories(categoriesData)
+    })
   },[])
   return (
     <div>

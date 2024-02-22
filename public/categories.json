@@ -1,50 +1,49 @@
-[
-  {
-    "id": 1,
-    "name": "NOTEBOOKS"
-  },
-  {
-    "id": 2,
-    "name": "MOTHERBOARDS"
-  },
-  {
-    "id": 3,
-    "name": "FUENTES"
-  },
-  {
-    "id": 4,
-    "name": "MOUSE"
-  },
-  {
-    "id": 5,
-    "name": "MONITORES"
-  },
-  {
-    "id": 6,
-    "name": "GPU"
-  },
-  {
-    "id": 7,
-    "name": "PROCESADORES"
-  },
-  {
-    "id": 9,
-    "name": "RAM"
-  },
-  {
-    "id": 10,
-    "name": "SILLAS"
-  },
-  {
-    "id": 11,
-    "name": "GABINETES"
-  },
-  {
-    "id": 14,
-    "name":"ALMACENAMIENTO"
-  },
-  {
-    "id":15,
-    "name":"CABLES"
-  }
+[{
+  "id": 1,
+  "name": "NOTEBOOKS"
+},
+{
+  "id": 2,
+  "name": "MOTHERBOARDS"
+},
+{
+  "id": 3,
+  "name": "FUENTES"
+},
+{
+  "id": 4,
+  "name": "MOUSE"
+},
+{
+  "id": 5,
+  "name": "MONITORES"
+},
+{
+  "id": 6,
+  "name": "GPU"
+},
+{
+  "id": 7,
+  "name": "PROCESADORES"
+},
+{
+  "id": 9,
+  "name": "RAM"
+},
+{
+  "id": 10,
+  "name": "SILLAS"
+},
+{
+  "id": 11,
+  "name": "GABINETES"
+},
+{
+  "id": 14,
+  "name":"ALMACENAMIENTO"
+},
+{
+  "id":15,
+  "name":"CABLES"
+}
 ]
