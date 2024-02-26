@@ -1,21 +1,23 @@
 import "./Checkout.css"
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
-import { useState, useContext} from "react";
+import { useState, useContext, createFactory} from "react";
 import { CartContext } from "../../context/CartContext"
 import { getFirestore, addDoc, collection, doc, getDoc, updateDoc } from 'firebase/firestore';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
+import Loader from "../Loader/Loader"
 
 const Checkout = () => {
     const Modal = withReactContent(Swal);
     const [order,setOrder] = useState(null);
+    const [loading, setLoading] = useState(false); 
     const {cart,total,clearCart} = useContext(CartContext)
     const [formData, setFormData] = useState({
         name: '',
         phone: '',
         email: ''
       });
-    
+
       const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
@@ -27,6 +29,7 @@ const Checkout = () => {
 
       const handleSubmit = async(e) => {
         e.preventDefault();
+        setLoading(true); 
         const buyer = {
             name: formData.name,
             phone: formData.phone,
@@ -44,6 +47,8 @@ const Checkout = () => {
               stock: newStock
           });
           }
+        })
+        cart.forEach((product)=>{
             items.push({
                 id: product.product.id,
                 title: product.product.title,
@@ -56,14 +61,13 @@ const Checkout = () => {
         setOrder(orderBD.id)
         createOrder()
         clearCart()
-        if(orderBD.id){
-          Modal.fire({
-            title: "Compra finalizada",
-            text: "A continuacion te brindaremos tu comprobante",
-            icon: "success",
-            confirmButtonText: 'Aceptar'
-          })
-        }
+        setLoading(false);
+        Modal.fire({
+          title: "Compra finalizada",
+          text: "A continuacion te brindaremos tu comprobante",
+          icon: "success",
+          confirmButtonText: 'Aceptar'
+        })
       };
     
   return (
@@ -72,7 +76,11 @@ const Checkout = () => {
     
     <div className="contenedor_general" style={{textAlign:'center'}}><h1 className="totalCart">Tu compra ha sido completada con exito,tu comprobante: {order}</h1></div>  
     
-    :
+    : 
+    loading ? // Mostrar el loader si loading es true
+    <div className="contenedor_general" style={{ textAlign: 'center' }}><Loader text={"Generando orden de compra"}/></div>
+
+    : 
     cart.length == 0 ?
      <div className="contenedor_general" style={{textAlign:'center'}}><h1 className="totalCart">El carrito se encuentra vacio, no puedes finalizar tu compra!</h1></div>  : 
      <div className="contenedor_general" style={{textAlign:'center'}}>
