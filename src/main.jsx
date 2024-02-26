@@ -4,15 +4,17 @@ import App from './App.jsx'
 import './index.css'
 import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
+import { env } from 'vite-plugin-env';
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAw-t_HHGsZrlr__XUzolfK8XhjE76K4CA",
-  authDomain: "coderhouse-ecommerce-d771b.firebaseapp.com",
+  apiKey: env.apiKey,
+  authDomain: env.authDomain,
   projectId: "coderhouse-ecommerce-d771b",
-  storageBucket: "coderhouse-ecommerce-d771b.appspot.com",
-  messagingSenderId: "939568691128",
-  appId: "1:939568691128:web:40934607c53b6a6321014d",
-  measurementId: "G-8MKP7MVCWN"
+  storageBucket: env.storageBucket,
+  messagingSenderId: env.messagingSenderId,
+  appId: env.appId,
+  measurementId: env.measurementId
 };
 
 const app = initializeApp(firebaseConfig);

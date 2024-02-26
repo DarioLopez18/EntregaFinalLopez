@@ -2,11 +2,10 @@ import "./Checkout.css"
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { useState, useContext} from "react";
 import { CartContext } from "../../context/CartContext"
-import { getFirestore, addDoc, collection } from 'firebase/firestore';
+import { getFirestore, addDoc, collection, doc, getDoc, updateDoc } from 'firebase/firestore';
 
 const Checkout = () => {
     const [order,setOrder] = useState(null);
-    const [detail, setDetail] = useState(null);
     const {cart,total,clearCart} = useContext(CartContext)
     const [formData, setFormData] = useState({
         name: '',
@@ -31,15 +30,23 @@ const Checkout = () => {
             email: formData.email
         }
         const items = []
-        cart.forEach(product=>{
+        const db = getFirestore()
+        cart.forEach(async(product)=>{
+          const productRef = doc(db,'items',product.product.id)
+          const stock = product.product.stock
+          const newStock = stock - product.quantity
+          const productSnapshot = await getDoc(productRef)
+          if(productSnapshot.exists()){
+            await updateDoc(productRef, {
+              stock: newStock
+          });
+          }
             items.push({
                 id: product.product.id,
                 title: product.product.title,
                 price: product.product.price
             })
         })
-        setDetail({buyer,items,total})
-        const db = getFirestore()
         const order = {buyer,items,total}
         const orderCollections = collection(db,"orders")
         const orderBD = await addDoc(orderCollections,order)
