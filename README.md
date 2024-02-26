@@ -39,44 +39,37 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
 
 # Acerca de la entrega: 
 
-* Consigna
+* Consigna: Desarrollaras una app de una e-commerce para poder vender productos de un rubro a eleccion
+* Componentes:
+* Nabvar
+* Catalogo
+* Detalle de producto
+* CartContext
+* CartWidget
 
-* Crea una carpeta dentro de src llamada components que contenga la implementación del componente NavBar dentro del archivo NavBar.js. Su funcionalidad es la de renderizar una barra de menú (Navbar).
+# Se debe entregar:
 
-* Objetivo:
-
-* Crear el menú e-commerce de tu proyecto
-
-* Se debe entregar: 
-
-* Brand (título/nombre de la tienda)
-* Un listado de categorías clickeables
-* Incorpora alguna librería de estilos con bootstrap/materialize u otro de tu preferencia (opcional).
-* Deberás corroborar que tu proyecto cuente con: Componente Navbar.Js
-
-* Consigna: 
-
-* Crea un componente CartWidget con un ícono y una notificación mostrando un número hardcodeado (fijo). Este servirá luego para indicar la cantidad de elementos que tenemos en el carrito, pero por ahora, mostrará un número hardcodeado (colocado en el código). Ubica este componente (CartWidget) dentro de Navbar.. Agrega algunos estilos con bootstrap/materialize u otro.
-
-* Crea un componente contenedor ItemListContainer.js con una prop greeting, y muestra el mensaje dentro del contenedor con el styling integrado.
-
-* Objetivo:
-
-* Crear la landing de tu proyecto.
-
-* Se debe entregar: Crea un componente CartWidget.js que haga rendering de un ícono Cart, e inclúyelo dentro de NavBar.js para que esté visible en todo momento.
-
-* Crea un componente ItemListContainer. Impórtalo dentro de App.js, y abajo de NavBar.js
-
-* Deberás corroborar que tu proyecto cuente con: 
-
-* Componente NavBar js
+* Navbar
+* CartWidget
+* ItemListContainer
+* ItemList
+* ItemDetailContainer
+* ItemDetail
+* Checkout
 
 # Información de la aplicación:
 
 * El proyecto constará de una tienda ecommerce de productos de hardware y tecnología.
 * Se utilizarán productos sacados desde Compra Gamer. 
-* A futuro se utilizará firbase como base de datos. 
+* Se utiliza firebase como base de datos.
+* CartContext para el manejo del carrito
+* Navegacion con react-router-dom
+* La aplicacion cuenta con:
+* Pagina principal donde hay un listado de productos
+* Pagina de detalle del producto luego de hacer click
+* Pagina para el carrito
+* Pagina para el checkout
+* Manejo de estados, rendering condicional, estilos responsivos y mucho mas!
 
 # Datos del cursado
 - **Año: 2024**
@@ -99,4 +92,3 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
 * Linkedin💻: https://www.linkedin.com/in/dario-angel-jose-lopez-2a3202234/
 
 <p align="right">(<a href="#top">Volver Arriba</a>)</p>
-
