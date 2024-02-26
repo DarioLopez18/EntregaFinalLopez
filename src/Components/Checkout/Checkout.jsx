@@ -3,8 +3,11 @@ import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { useState, useContext} from "react";
 import { CartContext } from "../../context/CartContext"
 import { getFirestore, addDoc, collection, doc, getDoc, updateDoc } from 'firebase/firestore';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content'
 
 const Checkout = () => {
+    const Modal = withReactContent(Swal);
     const [order,setOrder] = useState(null);
     const {cart,total,clearCart} = useContext(CartContext)
     const [formData, setFormData] = useState({
@@ -53,6 +56,14 @@ const Checkout = () => {
         setOrder(orderBD.id)
         createOrder()
         clearCart()
+        if(orderBD.id){
+          Modal.fire({
+            title: "Compra finalizada",
+            text: "A continuacion te brindaremos tu comprobante",
+            icon: "success",
+            confirmButtonText: 'Aceptar'
+          })
+        }
       };
     
   return (
