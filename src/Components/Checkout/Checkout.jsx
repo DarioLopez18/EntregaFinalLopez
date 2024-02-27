@@ -67,7 +67,8 @@ const Checkout = () => {
             items.push({
                 id: product.product.id,
                 title: product.product.title,
-                price: product.product.price
+                price: product.product.price,
+                quantity: product.quantity
             })
         })
         const order = {buyer,items,total}
