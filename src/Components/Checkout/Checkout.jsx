@@ -6,6 +6,7 @@ import { getFirestore, addDoc, collection, doc, getDoc, updateDoc } from 'fireba
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
 import Loader from "../Loader/Loader"
+import CheckoutItem from "../CheckoutItem/CheckoutItem";
 
 const Checkout = () => {
     const handleAceptarClick = () => {
@@ -35,8 +36,6 @@ const Checkout = () => {
 
       const handleSubmit = async(e) => {
         e.preventDefault();
-        const numericValue = value.replace(/\D/g, '');
-        setSearchTerm(numericValue);
         if(formData.email != formData.emailConfirmation){
           setError('Los emails no coinciden')
         }else if(formData.phone.length < 10){
@@ -49,7 +48,7 @@ const Checkout = () => {
             phone: formData.phone,
             email: formData.email,
             lastName: formData.lastName,
-            fecha: new Date().toLocaleDateString()
+            date: new Date().toLocaleString()
         }
         const items = []
         const db = getFirestore()
@@ -171,6 +170,16 @@ const Checkout = () => {
         </Col>
       </Row>
     </Container>
+    <h1 className="totalCart">Resumen de tu compra</h1>
+    <h1 className="totalCart">Total de tu carrito: ${total}</h1>
+    <div className="cartContainer">
+    {cart.map(p=>
+            (
+              <CheckoutItem key={p.product.id} product={p.product} quantity = {p.quantity}/>
+            )
+          )
+    } 
+    </div>
     </div>
     }
     {error &&  
