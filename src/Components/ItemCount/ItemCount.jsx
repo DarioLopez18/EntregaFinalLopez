@@ -26,9 +26,13 @@ const ItemCount = ({stock,onAddToCart}) => {
         </button>
           </div>
       </div>
+      {stock == 0 ? <div className="contenedor_general" style={{textAlign:'center',background:'#d12b3e'}}><h1 className="totalCart">Stock agotado</h1></div> : 
+      
       <div className="divAddToCart"> 
-       <Button detail={"Agregar al carrito"} onClick={handleAddToCart} className="buttonAddToCart"/>
+        <Button detail={"Agregar al carrito"} onClick={handleAddToCart} className="buttonAddToCart"/>
       </div>
+
+      }
     </div>
 
     </>

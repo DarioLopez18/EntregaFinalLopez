@@ -26,12 +26,10 @@ const ItemDetail = ({product}) => {
   return (
     <Card className="itemDetail">
     <div className="d-md-flex">
-      {/* Columna para la imagen */}
       <div className="flex-shrink-0">
         <Card.Img variant="top" src={product.img} alt={product.title} />
       </div>
 
-      {/* Columna para el texto y botones */}
       <div className="flex-grow-1">
         <Card.Body className="descripcion">
           <Card.Title className="titulo">{product.title}</Card.Title>

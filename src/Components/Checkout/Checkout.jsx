@@ -17,23 +17,27 @@ const Checkout = () => {
         phone: '',
         email: ''
       });
-
+    const [error,setError] = useState(null)
       const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
       };
 
-      const createOrder = async() => {
-        
-      }
-
       const handleSubmit = async(e) => {
         e.preventDefault();
-        setLoading(true); 
+        if(formData.email != formData.emailConfirmation){
+          setError('Los emails no coinciden')
+        }else if(formData.phone.length < 10){
+          setError('El numero de telefono debe tener al menos 10 caracteres')
+        }else{
+          setError(null)
+          setLoading(true); 
         const buyer = {
             name: formData.name,
             phone: formData.phone,
-            email: formData.email
+            email: formData.email,
+            lastName: formData.lastName,
+            fecha: new Date().toLocaleDateString()
         }
         const items = []
         const db = getFirestore()
@@ -59,7 +63,6 @@ const Checkout = () => {
         const orderCollections = collection(db,"orders")
         const orderBD = await addDoc(orderCollections,order)
         setOrder(orderBD.id)
-        createOrder()
         clearCart()
         setLoading(false);
         Modal.fire({
@@ -68,8 +71,8 @@ const Checkout = () => {
           icon: "success",
           confirmButtonText: 'Aceptar'
         })
+        }
       };
-    
   return (
     <>
     {order ? 
@@ -90,7 +93,7 @@ const Checkout = () => {
         <Col md={6}>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formName">
-              <Form.Label style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Nombre</Form.Label>
+              <Form.Label htmlFor="name" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Nombre</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Ingresa tu nombre"
@@ -100,8 +103,19 @@ const Checkout = () => {
                 required
               />
             </Form.Group>
+            <Form.Group controlId="formLastName">
+              <Form.Label htmlFor="lastName" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Apellido</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Ingresa tu apellido"
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleChange}
+                required
+              />
+            </Form.Group>
             <Form.Group controlId="formPhone">
-              <Form.Label style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Teléfono</Form.Label>
+              <Form.Label htmlFor="phone" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Teléfono</Form.Label>
               <Form.Control
                 type="tel"
                 placeholder="Ingresa tu teléfono"
@@ -112,12 +126,23 @@ const Checkout = () => {
               />
             </Form.Group>
             <Form.Group controlId="formEmail">
-              <Form.Label style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Correo electrónico</Form.Label>
+              <Form.Label htmlFor="email" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Correo electrónico</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="Ingresa tu correo electrónico"
                 name="email"
                 value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </Form.Group>
+            <Form.Group controlId="emailConfirmation">
+              <Form.Label htmlFor="emailConfirmation" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Confirma tu correo</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Ingresa tu correo electrónico"
+                name="emailConfirmation"
+                value={formData.emailConfirmation}
                 onChange={handleChange}
                 required
               />
@@ -131,6 +156,7 @@ const Checkout = () => {
     </Container>
     </div>
     }
+    {error &&  <div className="contenedor_general" style={{textAlign:'center'}}><h1 className="totalCart">{error}</h1></div>}
     </>
   )
 }
