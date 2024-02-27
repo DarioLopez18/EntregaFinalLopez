@@ -8,6 +8,16 @@ import withReactContent from 'sweetalert2-react-content'
 import Loader from "../Loader/Loader"
 
 const Checkout = () => {
+    const handleAceptarClick = () => {
+      Modal.fire({
+        title: "Error",
+        text: error,
+        icon: "error",
+        confirmButtonText: 'Aceptar',
+        allowOutsideClick: false
+      })
+      setError(null);
+    };
     const Modal = withReactContent(Swal);
     const [order,setOrder] = useState(null);
     const [loading, setLoading] = useState(false); 
@@ -25,6 +35,8 @@ const Checkout = () => {
 
       const handleSubmit = async(e) => {
         e.preventDefault();
+        const numericValue = value.replace(/\D/g, '');
+        setSearchTerm(numericValue);
         if(formData.email != formData.emailConfirmation){
           setError('Los emails no coinciden')
         }else if(formData.phone.length < 10){
@@ -123,6 +135,11 @@ const Checkout = () => {
                 value={formData.phone}
                 onChange={handleChange}
                 required
+                onKeyPress={(event) => {
+                  if (!/\d/.test(event.key)) {
+                    event.preventDefault();
+                  }
+                }}
               />
             </Form.Group>
             <Form.Group controlId="formEmail">
@@ -156,7 +173,9 @@ const Checkout = () => {
     </Container>
     </div>
     }
-    {error &&  <div className="contenedor_general" style={{textAlign:'center'}}><h1 className="totalCart">{error}</h1></div>}
+    {error &&  
+      handleAceptarClick()
+    }
     </>
   )
 }
