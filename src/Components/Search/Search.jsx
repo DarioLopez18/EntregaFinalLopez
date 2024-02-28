@@ -2,17 +2,21 @@ import "./search.css"
 import PropTypes from "prop-types"
 import iconSearch from "../../assets/search.svg";
 import { useState } from "react";
+import { useEffect } from "react";
+import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
 
-const Search = ({placeholder}) => {
+const Search = ({placeholder,productsCopy, onSearch }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const handleChange = (event) => {
-    console.log(event.target.value)
     setSearchTerm(event.target.value);
   };
 
   const handleSearch = () => {
-    
-  };
+    const searchResults = productsCopy.filter((product) =>
+      product.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    onSearch(searchResults);
+  }
   return (
         <>
         <input className="input" type="text" name="search" id="search" placeholder={placeholder} onChange={handleChange}/>

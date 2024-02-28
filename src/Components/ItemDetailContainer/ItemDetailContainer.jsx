@@ -4,18 +4,15 @@ import "./ItemDetailContainer.css"
 import Loader from "../Loader/Loader";
 import { useParams } from "react-router-dom";
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
-import Swal from 'sweetalert2';
-import withReactContent from 'sweetalert2-react-content'
+import { Link } from "react-router-dom";
 
 const ItemDetailContainer = () => {
-    const Modal = withReactContent(Swal);
     const [product,setProduct] = useState(null);
     const [error,setError] = useState(null);
     const {id} = useParams();
-    const handleAceptarClick = () => {
-      setError(null);
-      window.location.href="/"
-    };
+    const handleClickError = () => {
+      setError(null)
+    }
     useEffect(()=>{
       const db = getFirestore()
       const productRef = doc(db,"items",id)
@@ -24,30 +21,28 @@ const ItemDetailContainer = () => {
           setError(null)
           setProduct({id:snapshot.id,...snapshot.data()})
         }else{
-          setError("Producto no encontrado,lo redigiremos a la ruta principal")
+          setError("Producto no encontrado")
         }
       })
       },[id])
   return (
+
+    <>
+    {error ? 
+    <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
+      <h1 className="text marginbottom">Error: {error}</h1>
+      <Link className="buttonError" to={'/'} onClick={handleClickError} style={{textDecoration:'none'}}> 
+       Ir a los productos
+      </Link>
+    </div> 
+    : 
     <div className="itemDetailContainer">
-      {product === null ? <Loader text="Cargando el producto..."/> : <ItemDetail product={product}/>}
-      {error && 
-        Modal.fire({
-          title: "Error",
-          text: error,
-          icon: "error",
-          confirmButtonText: 'Aceptar',
-          allowOutsideClick: false
-        }).then((result)=>{
-          setError(null)
-          if(result.isConfirmed){
-            handleAceptarClick()
-          }
-        })
-      }
+    {product === null ? <Loader text="Cargando el producto..."/> : <ItemDetail product={product}/>}
     </div>
+    }
+    </>
+
   )
 }
-
 
 export default ItemDetailContainer

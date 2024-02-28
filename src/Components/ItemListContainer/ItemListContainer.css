@@ -45,3 +45,28 @@
       margin-top: 15rem;
     }
 }
+
+.buttonError{
+  width: 90%;
+  margin: 0 auto;  
+  background-color: #d12b3e;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+@media (min-width: 1200px) {
+  .buttonError{
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+.base2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+

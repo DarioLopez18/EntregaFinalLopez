@@ -40,6 +40,8 @@ const Checkout = () => {
           setError('Los emails no coinciden')
         }else if(formData.phone.length < 10){
           setError('El numero de telefono debe tener al menos 10 caracteres')
+        }else if(isNaN(formData.phone)){
+          setError('El telefono debe ser un numero')
         }else{
           setError(null)
           setLoading(true); 

@@ -19,9 +19,6 @@ const Navbar = () => {
             <div className="navbar">
                 <Icon/>
             </div>
-            <div className="base2">
-                <Search placeholder="Buscar producto"/>
-            </div>
             <div className="base">
                 <Dropdowns/>
                 {showHomeLink && (
