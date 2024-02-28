@@ -1,6 +1,6 @@
 .pagination{
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -64,6 +64,7 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
+    max-width: 90%;
 }
 
 .pagination-next.disabled, .pagination-previous.disabled {
