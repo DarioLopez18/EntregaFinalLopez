@@ -37,7 +37,7 @@ const ItemDetailContainer = () => {
     </div> 
     : 
     <div className="itemDetailContainer">
-    {product === null ? <Loader text="Cargando el producto..."/> : <ItemDetail product={product}/>}
+    {product === null ? <div className="itemDetail"><Loader text="Cargando el producto..."/></div> : <ItemDetail product={product}/>}
     </div>
     }
     </>
