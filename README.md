@@ -1,7 +1,7 @@
 # Ecommerce React JS CoderHouse 2024 🌍
 
-Primera pre-entrega del proyecto final, este proyecto constará de una tienda ecommerce, desarrollada con
-React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
+Entrega del proyecto final, este proyecto constará de una tienda ecommerce, desarrollada con
+React JS con vite,Javascript, HTML, CSS, Tailwind , Bootstrap y FireBase como base de datos.
 
 <p align="center">
     <img
@@ -41,11 +41,27 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
 
 * Consigna: Desarrollaras una app de una e-commerce para poder vender productos de un rubro a eleccion
 * Componentes:
-* Nabvar
-* Catalogo
-* Detalle de producto
-* CartContext
+* Button
+* Cart
+* CartItem
 * CartWidget
+* Checkout
+* CheckoutItem
+* Dropdown
+* Enlace
+* Error
+* Footer
+* Icon
+* Item
+* ItemCount
+* ItemDetail
+* ItemDetailContainer
+* ItemList
+* ItemListContainer
+* Loader
+* Navbar
+* Pagination
+* Search
 
 # Se debe entregar:
 
@@ -69,7 +85,9 @@ React JS con vite,Javascript, Vite, HTML, CSS, Tailwind y Bootstrap.
 * Pagina de detalle del producto luego de hacer click
 * Pagina para el carrito
 * Pagina para el checkout
-* Manejo de estados, rendering condicional, estilos responsivos y mucho mas!
+* Manejo de estados, rendering condicional, estilos responsivos.
+* Filtrado con barra de productos,
+* Paginado para ver los productos en distintas paginas
 
 # Datos del cursado
 - **Año: 2024**
