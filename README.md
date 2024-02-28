@@ -31,7 +31,7 @@ React JS con vite,Javascript, HTML, CSS, Tailwind , Bootstrap y FireBase como ba
 
 # Acerca de como ejecutar la aplicación:
 
-* Clonar el repositorio haciendo uso del comando: git clone https://github.com/DarioLopez18/PreEntrega1Lopez.git
+* Clonar el repositorio haciendo uso del comando: git clone https://github.com/DarioLopez18/EntregaFinalLopez
 * Posicionarse dentro de la carpeta del proyecto, navegar desde la terminal o abriendo directamente la carpeta
 * Instalar las dependencias con el comando: npm install o npm i
 * Una vez instalada la dependencia correr la aplicación con el comando: npm run dev
