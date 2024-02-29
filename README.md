@@ -89,6 +89,24 @@ React JS con vite,Javascript, HTML, CSS, Tailwind , Bootstrap y FireBase como ba
 * Filtrado con barra de productos,
 * Paginado para ver los productos en distintas paginas
 
+# Dependencias del proyecto:
+
+* "@headlessui/react": "^1.7.18"
+* "@heroicons/react": "^2.1.1"
+* "react-dotenv": "^0.1.3"
+* "dotenv": "^16.4.4"
+* "bootstrap": "^5.3.2"
+* "bulma": "^0.9.4"
+* "firebase": "^10.8.0"
+* "firebase-admin": "^12.0.0"
+* "react": "^18.2.0"
+* "react-bootstrap": "^2.10.0"
+* "react-dom": "^18.2.0"
+* "react-router-dom": "^6.21.3"
+* "reactstrap": "^9.2.1"
+* "sweetalert2-react-content": "^5.0.7"
+* "vite-plugin-env-compatible": "^2.0.1"
+
 # Datos del cursado
 - **Año: 2024**
 - **Comisión: 60810**
