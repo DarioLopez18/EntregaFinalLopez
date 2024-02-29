@@ -3,8 +3,9 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import "./ItemDetailContainer.css"
 import Loader from "../Loader/Loader";
 import { useParams } from "react-router-dom";
-import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc } from 'firebase/firestore';
 import { Link } from "react-router-dom";
+import { bd } from "../../firebase/firebase";
 
 const ItemDetailContainer = () => {
     const [product,setProduct] = useState(null);
@@ -14,8 +15,7 @@ const ItemDetailContainer = () => {
       setError(null)
     }
     useEffect(()=>{
-      const db = getFirestore()
-      const productRef = doc(db,"items",id)
+      const productRef = doc(bd,"items",id)
       getDoc(productRef).then(snapshot=>{
         if(snapshot.exists()){
           setError(null)
@@ -37,7 +37,7 @@ const ItemDetailContainer = () => {
     </div> 
     : 
     <div className="itemDetailContainer">
-    {product === null ? <div className="itemDetail"><Loader text="Cargando el producto..."/></div> : <ItemDetail product={product}/>}
+    {product === null ? <div className="marginDetail"><Loader  text="Cargando el producto..."/></div> : <ItemDetail product={product}/>}
     </div>
     }
     </>

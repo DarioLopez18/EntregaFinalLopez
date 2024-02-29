@@ -3,9 +3,10 @@ import "./ItemListContainer.css"
 import ItemList from "../ItemList/ItemList"
 import { useState,useEffect} from "react";
 import { useParams } from "react-router-dom";
-import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
+import { collection, getDocs, query, where } from 'firebase/firestore';
 import { Link } from "react-router-dom";
 import Search from "../Search/Search";
+import { bd } from "../../firebase/firebase";
 
 const ItemListContainer = ({greeting}) => {
   const handleClickError = () => {
@@ -17,8 +18,7 @@ const ItemListContainer = ({greeting}) => {
   const [category,setCategory] = useState(false)
   const [productsCopy,setProductsCopy] = useState(null) 
   const productSearch = async() =>{
-    const db = getFirestore()
-    const productsRef = query(collection(db,"items"),where("stock",">",0))
+    const productsRef = query(collection(bd,"items"),where("stock",">",0))
     getDocs(productsRef).then(
         (snapshot) => {
           if(!snapshot.empty){
@@ -32,8 +32,7 @@ const ItemListContainer = ({greeting}) => {
   }
 
   const productList = async() =>{
-    const db = getFirestore()
-    const productsRef = query(collection(db,"items"),where("stock",">",0))
+    const productsRef = query(collection(bd,"items"),where("stock",">",0))
     if(!categoryName) {
       getDocs(productsRef).then(
         (snapshot) => {
@@ -48,7 +47,7 @@ const ItemListContainer = ({greeting}) => {
         }
       ) 
     }else{
-      const productsFilteredRef = query(collection(db,"items"),where("categoria","==",categoryName),where("stock",">",0))
+      const productsFilteredRef = query(collection(bd,"items"),where("categoria","==",categoryName),where("stock",">",0))
       getDocs(productsFilteredRef).then(snapshot=>{
         const productsFiltered = snapshot.docs.map(doc => ({id: doc.id,...doc.data()}))
         if(productsFiltered.length > 0){

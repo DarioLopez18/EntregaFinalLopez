@@ -2,11 +2,12 @@ import "./Checkout.css"
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { useState, useContext, createFactory} from "react";
 import { CartContext } from "../../context/CartContext"
-import { getFirestore, addDoc, collection, doc, getDoc, updateDoc } from 'firebase/firestore';
+import { addDoc, collection, doc, getDoc, updateDoc } from 'firebase/firestore';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
 import Loader from "../Loader/Loader"
 import CheckoutItem from "../CheckoutItem/CheckoutItem";
+import { bd } from "../../firebase/firebase";
 
 const Checkout = () => {
     const handleAceptarClick = () => {
@@ -53,9 +54,8 @@ const Checkout = () => {
             date: new Date().toLocaleString()
         }
         const items = []
-        const db = getFirestore()
         cart.forEach(async(product)=>{
-          const productRef = doc(db,'items',product.product.id)
+          const productRef = doc(bd,'items',product.product.id)
           const stock = product.product.stock
           const newStock = stock - product.quantity
           const productSnapshot = await getDoc(productRef)
