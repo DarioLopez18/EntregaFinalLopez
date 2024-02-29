@@ -106,6 +106,7 @@ React JS con vite,Javascript, HTML, CSS, Tailwind , Bootstrap y FireBase como ba
 * "reactstrap": "^9.2.1"
 * "sweetalert2-react-content": "^5.0.7"
 * "vite-plugin-env-compatible": "^2.0.1"
+* iconos: https://tabler.io/icons
 
 # Datos del cursado
 - **Año: 2024**
