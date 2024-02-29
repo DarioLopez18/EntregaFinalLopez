@@ -2,7 +2,7 @@ import "./Checkout.css"
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { useState, useContext, createFactory} from "react";
 import { CartContext } from "../../context/CartContext"
-import { addDoc, collection, doc, getDoc, updateDoc } from 'firebase/firestore';
+import { addDoc, collection, doc, getDoc, or, updateDoc } from 'firebase/firestore';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
 import Loader from "../Loader/Loader"
@@ -39,12 +39,15 @@ const Checkout = () => {
 
       const handleSubmit = async(e) => {
         e.preventDefault();
+        const exp = /^[A-Za-záéíóúÁÉÍÓÚñÑ\s]+$/;
         if(formData.email != formData.emailConfirmation){
           setError('Los emails no coinciden')
         }else if(formData.phone.length < 10){
           setError('El numero de telefono debe tener al menos 10 caracteres')
         }else if(isNaN(formData.phone)){
           setError('El telefono debe ser un numero')
+        }else if(!exp.test(formData.name) || !exp.test(formData.lastName)){
+          setError('Tu nombre no puede contener numeros')
         }else{
           setError(null)
           setLoading(true); 

@@ -88,6 +88,7 @@ React JS con vite,Javascript, HTML, CSS, Tailwind , Bootstrap y FireBase como ba
 * Manejo de estados, rendering condicional, estilos responsivos.
 * Filtrado con barra de productos,
 * Paginado para ver los productos en distintas paginas
+* Validacion de formulario con expresiones regulares
 
 # Dependencias del proyecto:
 
