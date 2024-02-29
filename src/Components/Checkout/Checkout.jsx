@@ -27,7 +27,9 @@ const Checkout = () => {
     const [formData, setFormData] = useState({
         name: '',
         phone: '',
-        email: ''
+        email: '',
+        lastName: '',
+        emailConfirmation: ''
       });
     const [error,setError] = useState(null)
       const handleChange = (e) => {
@@ -74,7 +76,7 @@ const Checkout = () => {
             })
         })
         const order = {buyer,items,total}
-        const orderCollections = collection(db,"orders")
+        const orderCollections = collection(bd,"orders")
         const orderBD = await addDoc(orderCollections,order)
         setOrder(orderBD.id)
         clearCart()
@@ -106,7 +108,7 @@ const Checkout = () => {
       <Row className="justify-content-md-center">
         <Col md={6}>
           <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="formName">
+            <Form.Group>
               <Form.Label htmlFor="name" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Nombre</Form.Label>
               <Form.Control
                 type="text"
@@ -117,7 +119,7 @@ const Checkout = () => {
                 required
               />
             </Form.Group>
-            <Form.Group controlId="formLastName">
+            <Form.Group>
               <Form.Label htmlFor="lastName" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Apellido</Form.Label>
               <Form.Control
                 type="text"
@@ -128,7 +130,7 @@ const Checkout = () => {
                 required
               />
             </Form.Group>
-            <Form.Group controlId="formPhone">
+            <Form.Group>
               <Form.Label htmlFor="phone" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Teléfono</Form.Label>
               <Form.Control
                 type="tel"
@@ -144,7 +146,7 @@ const Checkout = () => {
                 }}
               />
             </Form.Group>
-            <Form.Group controlId="formEmail">
+            <Form.Group>
               <Form.Label htmlFor="email" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Correo electrónico</Form.Label>
               <Form.Control
                 type="email"
@@ -155,7 +157,7 @@ const Checkout = () => {
                 required
               />
             </Form.Group>
-            <Form.Group controlId="emailConfirmation">
+            <Form.Group>
               <Form.Label htmlFor="emailConfirmation" style={{color:'white',fontSize:'16px',fontWeight:'bold',textShadow:'1px 1px 2px black'}}>Confirma tu correo</Form.Label>
               <Form.Control
                 type="email"
