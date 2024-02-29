@@ -34,6 +34,7 @@ const ItemDetail = ({product}) => {
         <Card.Body className="descripcion">
           <Card.Title className="titulo">{product.title}</Card.Title>
           <Card.Text className="detalle">{product.detail}</Card.Text>
+          <Card.Text className="detalle">Stock: {product.stock}</Card.Text>
           <Card.Text className="precio">${product.price}</Card.Text>
           {cartState ? <div className="linksCart">
             <NavLink to={"/cart"} className="linkin"><Button className="buttonAddToCart" detail={"Ir al carrito"} onClick={()=>{}}/></NavLink>
