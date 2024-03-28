@@ -16,6 +16,18 @@ React JS con vite,Javascript, HTML, CSS, Tailwind , Bootstrap y FireBase como ba
 <div> 
     <p align="center">
         <img
+            src="65ef0c476d19c35914c8191a.png"
+            alt="Certificado del curso"
+            width="100%"
+            height="100%"
+            align="center"
+        /> 
+     </p>
+</div>
+
+<div> 
+    <p align="center">
+        <img
             src="Foto.png"
             alt="Certificado del curso"
             width="100%"
